@@ -1,0 +1,85 @@
+---------------------------------------------------------------
+[ 2018-08-06T09:15:21+08:00 ] 0.0.0.0 GET /ArcticTern_1/
+[ info ] localhost/ArcticTern_1/ [运行时间：0.588779s][吞吐率：1.70req/s] [内存消耗：2,055.97kb] [文件加载：51]
+[ info ] [ LANG ] E:\xampp\htdocs\ArcticTern_1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ E:\xampp\htdocs\ArcticTern_1\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\xampp\htdocs\ArcticTern_1/application/index\view\index\index.html [ array (
+  0 => 'index',
+  1 => 'activity',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.030827s ] mysql:host=127.0.0.1;dbname=arctictern;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `index` [ RunTime:0.179423s ]
+[ sql ] [ SQL ] SELECT * FROM `index` [ RunTime:0.019210s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `activity` [ RunTime:0.035034s ]
+[ sql ] [ SQL ] SELECT * FROM `activity` [ RunTime:0.001112s ]
+---------------------------------------------------------------
+[ 2018-08-06T09:15:36+08:00 ] 0.0.0.0 GET /ArcticTern_1/activity/index/index.html
+[ info ] localhost/ArcticTern_1/activity/index/index.html [运行时间：0.130757s][吞吐率：7.65req/s] [内存消耗：2,188.45kb] [文件加载：53]
+[ info ] [ LANG ] E:\xampp\htdocs\ArcticTern_1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'activity',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/ArcticTern_1/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=7par5dhkfcl4jg9cnndn73e2rm',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\activity\controller\Index->index[ E:\xampp\htdocs\ArcticTern_1\application\activity\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\xampp\htdocs\ArcticTern_1/application/activity\view\index\index.html [ array (
+  0 => 'index',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000823s ] mysql:host=127.0.0.1;dbname=arctictern;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `activity` [ RunTime:0.035506s ]
+[ sql ] [ SQL ] SELECT * FROM `activity` [ RunTime:0.000745s ]

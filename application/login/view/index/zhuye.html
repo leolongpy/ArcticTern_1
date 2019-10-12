@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>个人主页</title>
+    <script src="__JS__/jquery-1.12.4.js"></script>
+    <link rel="stylesheet" href="__CSS__/bootstrap.css">
+    <link rel="stylesheet" href="__CSS__/login/zhuye.css">
+    <!--<link rel="stylesheet" href="__CSS__/footer.css">-->
+    <link rel="stylesheet" href="__CSS__/nav.css">
+    <style>
+        
+</style>
+</head>
+<body>
+    <header>
+        <!--导航-->
+        {include file="../../common/nav"}
+
+        {volist name="index" id="des"}
+        <div class="nav">
+            <div class="nav-top">
+                <!--<div id="mini" style="border-bottom:1px solid rgba(255,255,255,.1)"><img src="__IMG__/login/mini.png" ></div>-->
+                <div class="tx_all" style="width: 100%;">
+                    <div class="tx">
+                        <img id="imgAjax" src="__IMG__/uploads/{$des.picture}">
+                    </div>
+                    <form action="{:url('index/upload')}" enctype="multipart/form-data" method="post" style="text-align: center;">
+                        <label for="file" class=" btn btn-default" style="background-color: ">更换头像</label>
+                        <input id="file" name="image" type="file" style="display:none; line-height: 30px;">
+                        <input type="submit" id="sub" name="sub" value="保存" style="background-color: #3f9f5f; border: none; height: 34px; color: white; border-radius: 5px;">
+                    </form>
+                </div>
+                
+            
+                <div class="mz">
+                    <a href="#">{$Think.session.user_name}</a>
+                </div>
+                <div class="detail">
+                    <a href="#"><span>0</span>关注</a>
+                    <a href="#"><span>0</span>粉丝</a>
+                </div>
+            </div>
+            <div class="nav-but">
+                <a href="#">发新话题</a>
+                <a href="#">发新活动</a>
+            </div>
+            <ul class="nav-content">
+
+                <li class="nav-item">
+                    <a href="#"><i class="glyphicon glyphicon-home"></i><span>个人首页</span></a>
+                </li>
+                <li class="nav-item">
+                    <a href="#"><i class="glyphicon glyphicon-heart"></i><span>我的想法</span></a>
+                </li>
+                <li class="nav-item">
+                    <a href="#"><i class="glyphicon glyphicon-edit"></i><span>足迹点评</span></a>
+                </li>
+                <li class="nav-item">
+                    <a href="#"><i class="glyphicon glyphicon-th-list"></i><span>行程计划</span></a>
+                </li>
+                <li class="nav-item">
+                    <a href="#"><i class="glyphicon glyphicon-cog"></i><span>设置</span></a>
+                    <ul class="myul">
+                        <li>
+                            <a href="#"><span>个人资料</span></a>
+                        </li>
+                        <li>
+                            <a href="#"><span>账号管理</span></a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </header>
+    <div class="content_top">
+        <ul>
+            <li>
+                <a href="#" data-toggle="tab">个人资料</a>
+            </li>
+            <li>
+                <a href="#" data-toggle="tab">关注</a>
+            </li>
+            <li>
+                <a href="#" data-toggle="tab">粉丝</a>
+            </li>
+            <li>
+                <a href="#" data-toggle="tab">邮件订阅</a>
+            </li>
+            <li>
+                <a href="#" data-toggle="tab">账号管理</a>
+            </li>
+            <li>
+                <a href="#" data-toggle="tab">修改密码</a>
+            </li>
+            <li>
+                <a href="#" data-toggle="tab">修改头像</a>
+            </li>
+        </ul>
+    </div>
+    <div class="content">
+        <form method="post" enctype="multipart/form-data">
+        <div class="information">
+            <span>个人资料</span>
+        </div>
+        <div class="inforcontent">
+            <div class="list">
+                <div class="list_left">用户名:</div>
+                <div class="list_right">
+                    <!--<input type="text" class="form-control"  aria-describedby="basic-addon2" name="name" value="{$des.name}" required="required">-->
+                    {$des.name}
+                </div>
+            </div>
+            <div class="list">
+                <div class="list_left">密码:</div>
+                <div class="list_right">
+                    <input type="password" class="form-control"  aria-describedby="basic-addon2" name="password" required="required">
+                </div>
+            </div>
+            <div class="list">
+                <div class="list_left">手机号：</div>
+                <div class="list_right">
+                    <input type="number" class="form-control"  aria-describedby="basic-addon2" name="phone" value="{$des.phone}" required="required">
+                </div>
+            </div>
+            <div class="list">
+                <div class="list_left">邮箱：</div>
+                <div class="list_right">
+                    <input type="email" class="form-control"  aria-describedby="basic-addon2" name="email" value="{$des.email}" required="required">
+                </div>
+            </div>
+            <div class="list">
+                <div class="list_left">地址：</div>
+                <div class="list_right">
+                    <input type="text" class="form-control"  aria-describedby="basic-addon2" name="address" value="{$des.address}" required="required">
+                </div>
+            </div>
+            </div>
+            <div class="list">
+                <div class="list_left">性别:</div>
+                <div class="list_right">
+                    <div class="input">
+                        <label class="radio-inline">
+                            <input type="radio" name="sex" id="inlineRadio1" value="男" required="required"> 男
+                        </label>
+                        <label class="radio-inline">
+                            <input type="radio" name="sex" id="inlineRadio2" value="女" required="required"> 女
+                        </label>
+                    </div>
+                </div>
+            </div>
+            <button class="xiugai" name="button">修改</button>
+            <a class="tuichu" href="{:url('tc')}">退出登录</a>
+        </div>
+        </form>
+    </div>
+    {/volist}
+        <!--{include file="../../common/footer"}-->
+    <script src="__JS__/login/zhuye.js"></script>
+    <script src="__JS__/jquery-1.12.4.js"></script>
+    <script src="__JS__/bootstrap.js"></script>
+    <script type="text/javascript">
+        $(".pick-area1").pickArea();
+    </script>
+</body>
+</html>

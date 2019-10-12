@@ -1,0 +1,87 @@
+---------------------------------------------------------------
+[ 2018-08-08T13:31:39+08:00 ] 0.0.0.0 GET /ArcticTern_1/
+[ info ] localhost/ArcticTern_1/ [运行时间：0.526812s][吞吐率：1.90req/s] [内存消耗：2,056.27kb] [文件加载：51]
+[ info ] [ LANG ] E:\xampp\htdocs\ArcticTern_1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.84 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ E:\xampp\htdocs\ArcticTern_1\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\xampp\htdocs\ArcticTern_1/application/index\view\index\index.html [ array (
+  0 => 'index',
+  1 => 'activity',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.069318s ] mysql:host=127.0.0.1;dbname=arctictern;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `index` [ RunTime:0.105057s ]
+[ sql ] [ SQL ] SELECT * FROM `index` [ RunTime:0.013017s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `activity` [ RunTime:0.016636s ]
+[ sql ] [ SQL ] SELECT * FROM `activity` [ RunTime:0.000649s ]
+---------------------------------------------------------------
+[ 2018-08-08T16:26:38+08:00 ] 0.0.0.0 GET /ArcticTern_1/
+[ info ] localhost/ArcticTern_1/ [运行时间：0.295769s][吞吐率：3.38req/s] [内存消耗：2,059.99kb] [文件加载：51]
+[ info ] [ LANG ] E:\xampp\htdocs\ArcticTern_1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.84 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=8717644800; XSRF-TOKEN=eyJpdiI6IjJtM0hLeGJLdjQ0UFZnS1RsRXllTXc9PSIsInZhbHVlIjoiTGZWVm9WUXlEQVJIMjIxMUh3UGdoUzE1Y2lvb2xsRVlNbmdMSlA4NGZOMnRVZ0I5SjZjMmVmUnUxa0V2eDUySDZwTE1Ddkp3R2FBVkVEdVQ0SmZXbUE9PSIsIm1hYyI6IjI4NmM4YzQ1MDZkNjI4MDhjMGI0Zjk5NGYyYTU3OWNmZTJkMWFiM2ZhZjZjYWIxNTJjNGMyOWJlYWM0YTVhOGQifQ%3D%3D; laravel_session=eyJpdiI6ImtETGoxb2orTzFyUVdaNnRzQXB0QVE9PSIsInZhbHVlIjoiajJWXC9WcU1paEdPYUNNbmhxc0dWSUZiVExKejArZVF0cXR6S2RTWm4zdnJ4dW5tQkNkVlhzQklQV2RPOHljR0x4OGxhaDRWWjBMbFVlY09cL2ZGNDVzdz09IiwibWFjIjoiNDE1OWE2ZTA0MzRjYWRmZTMxMWRjOGJjOThjZTc0YzFkZjg4MDNkMmI1YzFkYjI0NjQzNTFiNThlNzU3MjRhNyJ9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ E:\xampp\htdocs\ArcticTern_1\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\xampp\htdocs\ArcticTern_1/application/index\view\index\index.html [ array (
+  0 => 'index',
+  1 => 'activity',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.026224s ] mysql:host=127.0.0.1;dbname=arctictern;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `index` [ RunTime:0.035423s ]
+[ sql ] [ SQL ] SELECT * FROM `index` [ RunTime:0.007518s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `activity` [ RunTime:0.013479s ]
+[ sql ] [ SQL ] SELECT * FROM `activity` [ RunTime:0.000670s ]

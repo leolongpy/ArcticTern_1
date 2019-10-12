@@ -1,0 +1,1267 @@
+---------------------------------------------------------------
+[ 2018-07-28T14:37:17+08:00 ] 0.0.0.0 GET /ArcticTern_1/
+[ info ] localhost/ArcticTern_1/ [运行时间：1.437427s][吞吐率：0.70req/s] [内存消耗：2,489.70kb] [文件加载：51]
+[ info ] [ LANG ] D:\xampp\htdocs\ArcticTern_1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\xampp\htdocs\ArcticTern_1\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\xampp\htdocs\ArcticTern_1/application/index\view\index\index.html [ array (
+  0 => 'index',
+  1 => 'activity',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.019636s ] mysql:host=127.0.0.1;dbname=arctictern;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `index` [ RunTime:0.017766s ]
+[ sql ] [ SQL ] SELECT * FROM `index` [ RunTime:0.000489s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `activity` [ RunTime:0.056766s ]
+[ sql ] [ SQL ] SELECT * FROM `activity` [ RunTime:0.022477s ]
+---------------------------------------------------------------
+[ 2018-07-28T14:37:25+08:00 ] 0.0.0.0 POST /ArcticTern_1/index/index/ajax.html
+[ info ] localhost/ArcticTern_1/index/index/ajax.html [运行时间：0.092472s][吞吐率：10.81req/s] [内存消耗：2,359.52kb] [文件加载：49]
+[ info ] [ LANG ] D:\xampp\htdocs\ArcticTern_1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'ajax',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'content-length' => '6',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://localhost',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://localhost/ArcticTern_1/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=9a85qhq3g021v5e8rjh95qekd4',
+)
+[ info ] [ PARAM ] array (
+  'text' => 'l',
+)
+[ info ] [ RUN ] app\index\controller\Index->ajax[ D:\xampp\htdocs\ArcticTern_1\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011067s ] mysql:host=127.0.0.1;dbname=arctictern;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `trip_planning` [ RunTime:0.029664s ]
+[ sql ] [ SQL ] SELECT * FROM `trip_planning` WHERE  `tp_name` LIKE '%l%'  AND `tp_status` = 1 [ RunTime:0.018157s ]
+---------------------------------------------------------------
+[ 2018-07-28T14:37:26+08:00 ] 0.0.0.0 POST /ArcticTern_1/index/index/ajax.html
+[ info ] localhost/ArcticTern_1/index/index/ajax.html [运行时间：0.273026s][吞吐率：3.66req/s] [内存消耗：2,411.89kb] [文件加载：49]
+[ info ] [ LANG ] D:\xampp\htdocs\ArcticTern_1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'ajax',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'content-length' => '5',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://localhost',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://localhost/ArcticTern_1/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=9a85qhq3g021v5e8rjh95qekd4',
+)
+[ info ] [ PARAM ] array (
+  'text' => '',
+)
+[ info ] [ RUN ] app\index\controller\Index->ajax[ D:\xampp\htdocs\ArcticTern_1\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000593s ] mysql:host=127.0.0.1;dbname=arctictern;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `trip_planning` [ RunTime:0.207489s ]
+[ sql ] [ SQL ] SELECT * FROM `trip_planning` WHERE  `tp_name` LIKE '%%'  AND `tp_status` = 1 [ RunTime:0.001366s ]
+---------------------------------------------------------------
+[ 2018-07-28T14:37:27+08:00 ] 0.0.0.0 POST /ArcticTern_1/index/index/ajax.html
+[ info ] localhost/ArcticTern_1/index/index/ajax.html [运行时间：0.091067s][吞吐率：10.98req/s] [内存消耗：2,411.89kb] [文件加载：49]
+[ info ] [ LANG ] D:\xampp\htdocs\ArcticTern_1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'ajax',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'content-length' => '5',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://localhost',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://localhost/ArcticTern_1/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=9a85qhq3g021v5e8rjh95qekd4',
+)
+[ info ] [ PARAM ] array (
+  'text' => '',
+)
+[ info ] [ RUN ] app\index\controller\Index->ajax[ D:\xampp\htdocs\ArcticTern_1\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011079s ] mysql:host=127.0.0.1;dbname=arctictern;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `trip_planning` [ RunTime:0.037928s ]
+[ sql ] [ SQL ] SELECT * FROM `trip_planning` WHERE  `tp_name` LIKE '%%'  AND `tp_status` = 1 [ RunTime:0.000769s ]
+---------------------------------------------------------------
+[ 2018-07-28T14:37:27+08:00 ] 0.0.0.0 POST /ArcticTern_1/index/index/ajax.html
+[ info ] localhost/ArcticTern_1/index/index/ajax.html [运行时间：0.062074s][吞吐率：16.11req/s] [内存消耗：2,411.89kb] [文件加载：49]
+[ info ] [ LANG ] D:\xampp\htdocs\ArcticTern_1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'ajax',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'content-length' => '5',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://localhost',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://localhost/ArcticTern_1/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=9a85qhq3g021v5e8rjh95qekd4',
+)
+[ info ] [ PARAM ] array (
+  'text' => '',
+)
+[ info ] [ RUN ] app\index\controller\Index->ajax[ D:\xampp\htdocs\ArcticTern_1\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000558s ] mysql:host=127.0.0.1;dbname=arctictern;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `trip_planning` [ RunTime:0.032403s ]
+[ sql ] [ SQL ] SELECT * FROM `trip_planning` WHERE  `tp_name` LIKE '%%'  AND `tp_status` = 1 [ RunTime:0.000657s ]
+---------------------------------------------------------------
+[ 2018-07-28T14:37:32+08:00 ] 0.0.0.0 GET /ArcticTern_1/trip_planning/index/ziye/id/13.html
+[ info ] localhost/ArcticTern_1/trip_planning/index/ziye/id/13.html [运行时间：1.236335s][吞吐率：0.81req/s] [内存消耗：2,460.52kb] [文件加载：51]
+[ info ] [ LANG ] D:\xampp\htdocs\ArcticTern_1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'trip_planning',
+    1 => 'index',
+    2 => 'ziye',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/ArcticTern_1/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=9a85qhq3g021v5e8rjh95qekd4',
+)
+[ info ] [ PARAM ] array (
+  'id' => '13',
+)
+[ info ] [ RUN ] app\trip_planning\controller\Index->ziye[ D:\xampp\htdocs\ArcticTern_1\application\trip_planning\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\xampp\htdocs\ArcticTern_1/application/trip_planning\view\index\ziye.html [ array (
+  0 => 'index',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001229s ] mysql:host=127.0.0.1;dbname=arctictern;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `trip_planning` [ RunTime:0.032715s ]
+[ sql ] [ SQL ] SELECT * FROM `trip_planning` WHERE  `id` = 13 [ RunTime:0.000959s ]
+---------------------------------------------------------------
+[ 2018-07-28T14:37:42+08:00 ] 0.0.0.0 GET /ArcticTern_1/
+[ info ] localhost/ArcticTern_1/ [运行时间：0.142427s][吞吐率：7.02req/s] [内存消耗：2,489.73kb] [文件加载：51]
+[ info ] [ LANG ] D:\xampp\htdocs\ArcticTern_1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=9a85qhq3g021v5e8rjh95qekd4',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\xampp\htdocs\ArcticTern_1\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\xampp\htdocs\ArcticTern_1/application/index\view\index\index.html [ array (
+  0 => 'index',
+  1 => 'activity',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000667s ] mysql:host=127.0.0.1;dbname=arctictern;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `index` [ RunTime:0.065455s ]
+[ sql ] [ SQL ] SELECT * FROM `index` [ RunTime:0.000493s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `activity` [ RunTime:0.034301s ]
+[ sql ] [ SQL ] SELECT * FROM `activity` [ RunTime:0.000566s ]
+---------------------------------------------------------------
+[ 2018-07-28T15:56:21+08:00 ] 0.0.0.0 GET /ArcticTern_1/login/index/index.html
+[ info ] localhost/ArcticTern_1/login/index/index.html [运行时间：0.168366s][吞吐率：5.94req/s] [内存消耗：1,674.48kb] [文件加载：45]
+[ info ] [ LANG ] D:\xampp\htdocs\ArcticTern_1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'login',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/ArcticTern_1/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\login\controller\Index->index[ D:\xampp\htdocs\ArcticTern_1\application\login\controller\Index.php ]
+[ info ] [ VIEW ] D:\xampp\htdocs\ArcticTern_1/application/login\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-28T15:56:21+08:00 ] 0.0.0.0 GET /ArcticTern_1/captcha.html
+[ info ] localhost/ArcticTern_1/captcha.html [运行时间：0.210762s][吞吐率：4.74req/s] [内存消耗：1,357.86kb] [文件加载：37]
+[ info ] [ LANG ] D:\xampp\htdocs\ArcticTern_1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://localhost/ArcticTern_1/login/index/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ D:\xampp\htdocs\ArcticTern_1\vendor\topthink\think-captcha\src\CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-28T15:56:22+08:00 ] 0.0.0.0 GET /ArcticTern_1/
+[ info ] localhost/ArcticTern_1/ [运行时间：0.128255s][吞吐率：7.80req/s] [内存消耗：2,490.18kb] [文件加载：51]
+[ info ] [ LANG ] D:\xampp\htdocs\ArcticTern_1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=2pmba8a8q5e3403kmakpuupt26',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\xampp\htdocs\ArcticTern_1\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\xampp\htdocs\ArcticTern_1/application/index\view\index\index.html [ array (
+  0 => 'index',
+  1 => 'activity',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.034409s ] mysql:host=127.0.0.1;dbname=arctictern;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `index` [ RunTime:0.042427s ]
+[ sql ] [ SQL ] SELECT * FROM `index` [ RunTime:0.001835s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `activity` [ RunTime:0.011271s ]
+[ sql ] [ SQL ] SELECT * FROM `activity` [ RunTime:0.000620s ]
+---------------------------------------------------------------
+[ 2018-07-28T15:56:26+08:00 ] 0.0.0.0 GET /ArcticTern_1/admin
+[ info ] localhost/ArcticTern_1/admin [运行时间：0.047191s][吞吐率：21.19req/s] [内存消耗：1,692.53kb] [文件加载：46]
+[ info ] [ LANG ] D:\xampp\htdocs\ArcticTern_1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=2pmba8a8q5e3403kmakpuupt26',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] D:\xampp\htdocs\ArcticTern_1\thinkphp\tpl\dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-28T15:56:30+08:00 ] 0.0.0.0 GET /ArcticTern_1/admin/login/login.html
+[ info ] localhost/ArcticTern_1/admin/login/login.html [运行时间：0.040088s][吞吐率：24.95req/s] [内存消耗：1,583.38kb] [文件加载：43]
+[ info ] [ LANG ] D:\xampp\htdocs\ArcticTern_1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/ArcticTern_1/admin',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=2pmba8a8q5e3403kmakpuupt26',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Login->login[ D:\xampp\htdocs\ArcticTern_1\application\admin\controller\Login.php ]
+[ info ] [ VIEW ] D:\xampp\htdocs\ArcticTern_1/application/admin\view\login\login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-28T15:56:30+08:00 ] 0.0.0.0 GET /ArcticTern_1/admin/login/js/xadmin.js
+[ info ] localhost/ArcticTern_1/admin/login/js/xadmin.js [运行时间：0.058834s][吞吐率：17.00req/s] [内存消耗：1,617.80kb] [文件加载：45]
+[ info ] [ LANG ] D:\xampp\htdocs\ArcticTern_1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://localhost/ArcticTern_1/admin/login/login.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=2pmba8a8q5e3403kmakpuupt26',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-28T15:56:30+08:00 ] 0.0.0.0 GET /ArcticTern_1/admin/login/js/xadmin.js
+[ info ] localhost/ArcticTern_1/admin/login/js/xadmin.js [运行时间：0.031071s][吞吐率：32.18req/s] [内存消耗：1,617.70kb] [文件加载：45]
+[ info ] [ LANG ] D:\xampp\htdocs\ArcticTern_1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://localhost/ArcticTern_1/admin/login/login.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=2pmba8a8q5e3403kmakpuupt26',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-28T15:56:35+08:00 ] 0.0.0.0 POST /ArcticTern_1/admin/login/loginin
+[ info ] localhost/ArcticTern_1/admin/login/loginin [运行时间：0.172432s][吞吐率：5.80req/s] [内存消耗：2,414.72kb] [文件加载：52]
+[ info ] [ LANG ] D:\xampp\htdocs\ArcticTern_1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'loginin',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'content-length' => '29',
+  'cache-control' => 'max-age=0',
+  'origin' => 'http://localhost',
+  'upgrade-insecure-requests' => '1',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/ArcticTern_1/admin/login/login.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=2pmba8a8q5e3403kmakpuupt26; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1532764590; Hm_lpvt_b393d153aeb26b46e9431fabaf0f6190=1532764590',
+)
+[ info ] [ PARAM ] array (
+  'a_name' => 'admin',
+  'a_password' => 'admin',
+)
+[ info ] [ RUN ] app\admin\controller\Login->loginin[ D:\xampp\htdocs\ArcticTern_1\application\admin\controller\Login.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] D:\xampp\htdocs\ArcticTern_1\thinkphp\tpl\dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000782s ] mysql:host=127.0.0.1;dbname=arctictern;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin` [ RunTime:0.019964s ]
+[ sql ] [ SQL ] SELECT * FROM `admin` WHERE  `a_name` = 'admin'  AND `a_password` = 'admin' [ RunTime:0.112899s ]
+---------------------------------------------------------------
+[ 2018-07-28T15:56:37+08:00 ] 0.0.0.0 GET /ArcticTern_1/admin/index/index.html
+[ info ] localhost/ArcticTern_1/admin/index/index.html [运行时间：0.027708s][吞吐率：36.09req/s] [内存消耗：1,688.01kb] [文件加载：45]
+[ info ] [ LANG ] D:\xampp\htdocs\ArcticTern_1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/ArcticTern_1/admin/login/loginin',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=2pmba8a8q5e3403kmakpuupt26; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1532764590; Hm_lpvt_b393d153aeb26b46e9431fabaf0f6190=1532764590',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Index->index[ D:\xampp\htdocs\ArcticTern_1\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] D:\xampp\htdocs\ArcticTern_1/application/admin\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-28T15:56:37+08:00 ] 0.0.0.0 GET /ArcticTern_1/admin/index/welcome.html
+[ info ] localhost/ArcticTern_1/admin/index/welcome.html [运行时间：0.033482s][吞吐率：29.87req/s] [内存消耗：1,626.41kb] [文件加载：44]
+[ info ] [ LANG ] D:\xampp\htdocs\ArcticTern_1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'welcome',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/ArcticTern_1/admin/index/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=2pmba8a8q5e3403kmakpuupt26; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1532764590; Hm_lpvt_b393d153aeb26b46e9431fabaf0f6190=1532764590',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Index->welcome[ D:\xampp\htdocs\ArcticTern_1\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] D:\xampp\htdocs\ArcticTern_1/application/admin\view\index\welcome.html [ array (
+  0 => 'date',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-28T15:56:38+08:00 ] 0.0.0.0 GET /ArcticTern_1/admin/index/orderlist.html
+[ info ] localhost/ArcticTern_1/admin/index/orderlist.html [运行时间：0.071830s][吞吐率：13.92req/s] [内存消耗：2,753.64kb] [文件加载：57]
+[ info ] [ LANG ] D:\xampp\htdocs\ArcticTern_1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'orderlist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/ArcticTern_1/admin/index/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=2pmba8a8q5e3403kmakpuupt26; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1532764590; Hm_lpvt_b393d153aeb26b46e9431fabaf0f6190=1532764597',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Index->orderList[ D:\xampp\htdocs\ArcticTern_1\application\admin\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\xampp\htdocs\ArcticTern_1/application/admin\view\index\orderlist.html [ array (
+  0 => 'index',
+  1 => 'page',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000838s ] mysql:host=127.0.0.1;dbname=arctictern;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `trip_planning` [ RunTime:0.014523s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `trip_planning` WHERE  `tp_status` = 0 LIMIT 1 [ RunTime:0.007567s ]
+[ sql ] [ SQL ] SELECT * FROM `trip_planning` WHERE  `tp_status` = 0 LIMIT 0,1 [ RunTime:0.001308s ]
+---------------------------------------------------------------
+[ 2018-07-28T15:56:40+08:00 ] 0.0.0.0 GET /ArcticTern_1/admin/index/orderadd/id/14.html
+[ info ] localhost/ArcticTern_1/admin/index/orderadd/id/14.html [运行时间：0.063681s][吞吐率：15.70req/s] [内存消耗：2,412.53kb] [文件加载：51]
+[ info ] [ LANG ] D:\xampp\htdocs\ArcticTern_1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'orderadd',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/ArcticTern_1/admin/index/orderlist.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=2pmba8a8q5e3403kmakpuupt26; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1532764590; Hm_lpvt_b393d153aeb26b46e9431fabaf0f6190=1532764599',
+)
+[ info ] [ PARAM ] array (
+  'id' => '14',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Index->orderAdd[ D:\xampp\htdocs\ArcticTern_1\application\admin\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\xampp\htdocs\ArcticTern_1/application/admin\view\index\orderadd.html [ array (
+  0 => 'index',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000790s ] mysql:host=127.0.0.1;dbname=arctictern;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `trip_planning` [ RunTime:0.015750s ]
+[ sql ] [ SQL ] SELECT * FROM `trip_planning` WHERE  `id` = 14 [ RunTime:0.003510s ]
+---------------------------------------------------------------
+[ 2018-07-28T16:36:03+08:00 ] 0.0.0.0 GET /ArcticTern_1/
+[ info ] localhost/ArcticTern_1/ [运行时间：1.167886s][吞吐率：0.86req/s] [内存消耗：2,490.76kb] [文件加载：51]
+[ info ] [ LANG ] D:\xampp\htdocs\ArcticTern_1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=2pmba8a8q5e3403kmakpuupt26; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1532764590; Hm_lpvt_b393d153aeb26b46e9431fabaf0f6190=1532764601',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\xampp\htdocs\ArcticTern_1\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\xampp\htdocs\ArcticTern_1/application/index\view\index\index.html [ array (
+  0 => 'index',
+  1 => 'activity',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.027919s ] mysql:host=127.0.0.1;dbname=arctictern;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `index` [ RunTime:0.050115s ]
+[ sql ] [ SQL ] SELECT * FROM `index` [ RunTime:0.000660s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `activity` [ RunTime:0.023071s ]
+[ sql ] [ SQL ] SELECT * FROM `activity` [ RunTime:0.000587s ]
+---------------------------------------------------------------
+[ 2018-07-28T16:36:05+08:00 ] 0.0.0.0 GET /ArcticTern_1/login/index/index.html
+[ info ] localhost/ArcticTern_1/login/index/index.html [运行时间：0.432080s][吞吐率：2.31req/s] [内存消耗：1,675.27kb] [文件加载：45]
+[ info ] [ LANG ] D:\xampp\htdocs\ArcticTern_1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'login',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/ArcticTern_1/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=2pmba8a8q5e3403kmakpuupt26; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1532764590; Hm_lpvt_b393d153aeb26b46e9431fabaf0f6190=1532764601',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\login\controller\Index->index[ D:\xampp\htdocs\ArcticTern_1\application\login\controller\Index.php ]
+[ info ] [ VIEW ] D:\xampp\htdocs\ArcticTern_1/application/login\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-28T16:36:05+08:00 ] 0.0.0.0 GET /ArcticTern_1/captcha.html
+[ info ] localhost/ArcticTern_1/captcha.html [运行时间：0.256825s][吞吐率：3.89req/s] [内存消耗：1,358.71kb] [文件加载：37]
+[ info ] [ LANG ] D:\xampp\htdocs\ArcticTern_1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://localhost/ArcticTern_1/login/index/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=2pmba8a8q5e3403kmakpuupt26; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1532764590; Hm_lpvt_b393d153aeb26b46e9431fabaf0f6190=1532764601',
+)
+[ info ] [ PARAM ] array (
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ D:\xampp\htdocs\ArcticTern_1\vendor\topthink\think-captcha\src\CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-28T16:36:21+08:00 ] 0.0.0.0 POST /ArcticTern_1/login/index/index.html
+[ info ] localhost/ArcticTern_1/login/index/index.html [运行时间：0.190458s][吞吐率：5.25req/s] [内存消耗：2,496.58kb] [文件加载：53]
+[ info ] [ LANG ] D:\xampp\htdocs\ArcticTern_1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'login',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'content-length' => '44',
+  'cache-control' => 'max-age=0',
+  'origin' => 'http://localhost',
+  'upgrade-insecure-requests' => '1',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/ArcticTern_1/login/index/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=2pmba8a8q5e3403kmakpuupt26; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1532764590; Hm_lpvt_b393d153aeb26b46e9431fabaf0f6190=1532764601',
+)
+[ info ] [ PARAM ] array (
+  'name' => '12345',
+  'password' => '12345',
+  'yzm' => 'fk4nf',
+  'button2' => '',
+)
+[ info ] [ RUN ] app\login\controller\Index->index[ D:\xampp\htdocs\ArcticTern_1\application\login\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] D:\xampp\htdocs\ArcticTern_1/application/login\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011976s ] mysql:host=127.0.0.1;dbname=arctictern;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.087743s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `name` = '12345' [ RunTime:0.037174s ]
+---------------------------------------------------------------
+[ 2018-07-28T16:36:22+08:00 ] 0.0.0.0 GET /ArcticTern_1/captcha.html
+[ info ] localhost/ArcticTern_1/captcha.html [运行时间：0.225353s][吞吐率：4.44req/s] [内存消耗：1,358.91kb] [文件加载：37]
+[ info ] [ LANG ] D:\xampp\htdocs\ArcticTern_1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://localhost/ArcticTern_1/login/index/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=2pmba8a8q5e3403kmakpuupt26; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1532764590; Hm_lpvt_b393d153aeb26b46e9431fabaf0f6190=1532764601',
+)
+[ info ] [ PARAM ] array (
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ D:\xampp\htdocs\ArcticTern_1\vendor\topthink\think-captcha\src\CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-28T16:36:23+08:00 ] 0.0.0.0 GET /ArcticTern_1/
+[ info ] localhost/ArcticTern_1/ [运行时间：0.270268s][吞吐率：3.70req/s] [内存消耗：2,490.94kb] [文件加载：51]
+[ info ] [ LANG ] D:\xampp\htdocs\ArcticTern_1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=2pmba8a8q5e3403kmakpuupt26; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1532764590; Hm_lpvt_b393d153aeb26b46e9431fabaf0f6190=1532764601',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\xampp\htdocs\ArcticTern_1\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\xampp\htdocs\ArcticTern_1/application/index\view\index\index.html [ array (
+  0 => 'index',
+  1 => 'activity',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000814s ] mysql:host=127.0.0.1;dbname=arctictern;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `index` [ RunTime:0.197983s ]
+[ sql ] [ SQL ] SELECT * FROM `index` [ RunTime:0.000361s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `activity` [ RunTime:0.025350s ]
+[ sql ] [ SQL ] SELECT * FROM `activity` [ RunTime:0.000536s ]
+---------------------------------------------------------------
+[ 2018-07-28T16:36:24+08:00 ] 0.0.0.0 GET /ArcticTern_1/login/index/zhuye.html
+[ info ] localhost/ArcticTern_1/login/index/zhuye.html [运行时间：0.163535s][吞吐率：6.11req/s] [内存消耗：2,440.85kb] [文件加载：52]
+[ info ] [ LANG ] D:\xampp\htdocs\ArcticTern_1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'login',
+    1 => 'index',
+    2 => 'zhuye',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/ArcticTern_1/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=2pmba8a8q5e3403kmakpuupt26; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1532764590; Hm_lpvt_b393d153aeb26b46e9431fabaf0f6190=1532764601',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\login\controller\Index->zhuye[ D:\xampp\htdocs\ArcticTern_1\application\login\controller\Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\xampp\htdocs\ArcticTern_1/application/login\view\index\zhuye.html [ array (
+  0 => 'index',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000643s ] mysql:host=127.0.0.1;dbname=arctictern;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.013508s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `name` = '12345' [ RunTime:0.000422s ]
+---------------------------------------------------------------
+[ 2018-07-28T16:45:45+08:00 ] 0.0.0.0 GET /ArcticTern_1/login/index/zhuye.html
+[ info ] localhost/ArcticTern_1/login/index/zhuye.html [运行时间：0.831192s][吞吐率：1.20req/s] [内存消耗：2,440.85kb] [文件加载：52]
+[ info ] [ LANG ] D:\xampp\htdocs\ArcticTern_1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'login',
+    1 => 'index',
+    2 => 'zhuye',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/ArcticTern_1/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=2pmba8a8q5e3403kmakpuupt26; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1532764590; Hm_lpvt_b393d153aeb26b46e9431fabaf0f6190=1532764601',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\login\controller\Index->zhuye[ D:\xampp\htdocs\ArcticTern_1\application\login\controller\Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\xampp\htdocs\ArcticTern_1/application/login\view\index\zhuye.html [ array (
+  0 => 'index',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.006776s ] mysql:host=127.0.0.1;dbname=arctictern;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.081978s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `name` = '12345' [ RunTime:0.014883s ]
+---------------------------------------------------------------
+[ 2018-07-28T16:52:22+08:00 ] 0.0.0.0 GET /ArcticTern_1/
+[ info ] localhost/ArcticTern_1/ [运行时间：0.541580s][吞吐率：1.85req/s] [内存消耗：2,489.91kb] [文件加载：51]
+[ info ] [ LANG ] D:\xampp\htdocs\ArcticTern_1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1532764590',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\xampp\htdocs\ArcticTern_1\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\xampp\htdocs\ArcticTern_1/application/index\view\index\index.html [ array (
+  0 => 'index',
+  1 => 'activity',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.015487s ] mysql:host=127.0.0.1;dbname=arctictern;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `index` [ RunTime:0.024157s ]
+[ sql ] [ SQL ] SELECT * FROM `index` [ RunTime:0.012434s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `activity` [ RunTime:0.012335s ]
+[ sql ] [ SQL ] SELECT * FROM `activity` [ RunTime:0.000374s ]
+---------------------------------------------------------------
+[ 2018-07-28T16:52:25+08:00 ] 0.0.0.0 GET /ArcticTern_1/trip_planning/index/index.html
+[ info ] localhost/ArcticTern_1/trip_planning/index/index.html [运行时间：0.238440s][吞吐率：4.19req/s] [内存消耗：2,598.84kb] [文件加载：51]
+[ info ] [ LANG ] D:\xampp\htdocs\ArcticTern_1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'trip_planning',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/ArcticTern_1/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1532764590; PHPSESSID=dh32gjqg2402pmqdkvp0ldkgh1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\trip_planning\controller\Index->index[ D:\xampp\htdocs\ArcticTern_1\application\trip_planning\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\xampp\htdocs\ArcticTern_1/application/trip_planning\view\index\index.html [ array (
+  0 => 'banner',
+  1 => 'index',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000748s ] mysql:host=127.0.0.1;dbname=arctictern;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `trip_banner` [ RunTime:0.058870s ]
+[ sql ] [ SQL ] SELECT * FROM `trip_banner` [ RunTime:0.049594s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `trip_planning` [ RunTime:0.029943s ]
+[ sql ] [ SQL ] SELECT * FROM `trip_planning` WHERE  `tp_status` = 1 [ RunTime:0.003620s ]
+---------------------------------------------------------------
+[ 2018-07-28T16:52:27+08:00 ] 0.0.0.0 GET /ArcticTern_1/trip_planning/index/ziye/id/1.html
+[ info ] localhost/ArcticTern_1/trip_planning/index/ziye/id/1.html [运行时间：0.125723s][吞吐率：7.95req/s] [内存消耗：2,625.95kb] [文件加载：53]
+[ info ] [ LANG ] D:\xampp\htdocs\ArcticTern_1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'trip_planning',
+    1 => 'index',
+    2 => 'ziye',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/ArcticTern_1/trip_planning/index/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1532764590; PHPSESSID=dh32gjqg2402pmqdkvp0ldkgh1',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ RUN ] app\trip_planning\controller\Index->ziye[ D:\xampp\htdocs\ArcticTern_1\application\trip_planning\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\xampp\htdocs\ArcticTern_1/application/trip_planning\view\index\ziye.html [ array (
+  0 => 'index',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001322s ] mysql:host=127.0.0.1;dbname=arctictern;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `trip_planning` [ RunTime:0.012672s ]
+[ sql ] [ SQL ] SELECT * FROM `trip_planning` WHERE  `id` = 1 [ RunTime:0.001867s ]
+---------------------------------------------------------------
+[ 2018-07-28T17:08:12+08:00 ] 0.0.0.0 GET /ArcticTern_1/trip_planning/index/ziye/id/1.html
+[ info ] localhost/ArcticTern_1/trip_planning/index/ziye/id/1.html [运行时间：0.966776s][吞吐率：1.03req/s] [内存消耗：2,643.94kb] [文件加载：53]
+[ info ] [ LANG ] D:\xampp\htdocs\ArcticTern_1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'trip_planning',
+    1 => 'index',
+    2 => 'ziye',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1532764590; PHPSESSID=dh32gjqg2402pmqdkvp0ldkgh1',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ RUN ] app\trip_planning\controller\Index->ziye[ D:\xampp\htdocs\ArcticTern_1\application\trip_planning\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\xampp\htdocs\ArcticTern_1/application/trip_planning\view\index\ziye.html [ array (
+  0 => 'index',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001901s ] mysql:host=127.0.0.1;dbname=arctictern;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `trip_planning` [ RunTime:0.019995s ]
+[ sql ] [ SQL ] SELECT * FROM `trip_planning` WHERE  `id` = 1 [ RunTime:0.001098s ]
+---------------------------------------------------------------
+[ 2018-07-28T17:21:47+08:00 ] 0.0.0.0 POST /ArcticTern_1/trip_planning/index/ziye/id/1.html
+[ info ] localhost/ArcticTern_1/trip_planning/index/ziye/id/1.html [运行时间：0.167133s][吞吐率：5.98req/s] [内存消耗：2,644.31kb] [文件加载：53]
+[ info ] [ LANG ] D:\xampp\htdocs\ArcticTern_1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'trip_planning',
+    1 => 'index',
+    2 => 'ziye',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'content-length' => '7',
+  'cache-control' => 'max-age=0',
+  'origin' => 'http://localhost',
+  'upgrade-insecure-requests' => '1',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/ArcticTern_1/trip_planning/index/ziye/id/1.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1532764590; PHPSESSID=dh32gjqg2402pmqdkvp0ldkgh1',
+)
+[ info ] [ PARAM ] array (
+  'button' => '',
+  'id' => '1',
+)
+[ info ] [ RUN ] app\trip_planning\controller\Index->ziye[ D:\xampp\htdocs\ArcticTern_1\application\trip_planning\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\xampp\htdocs\ArcticTern_1/application/trip_planning\view\index\ziye.html [ array (
+  0 => 'index',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000840s ] mysql:host=127.0.0.1;dbname=arctictern;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `trip_planning` [ RunTime:0.109006s ]
+[ sql ] [ SQL ] SELECT * FROM `trip_planning` WHERE  `id` = 1 [ RunTime:0.001377s ]

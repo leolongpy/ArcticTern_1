@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <title>活动策划</title>
+    <link rel="icon" href="__IMG__/activity/logo_2.png">
+    <link rel="stylesheet" href="__CSS__/bootstrap.css">
+    <link rel="stylesheet" href="__CSS__/activity/index.css">
+    <link rel="stylesheet" href="__CSS__/nav.css">
+    <link rel="stylesheet" href="__CSS__/footer.css">
+    <link rel="stylesheet" href="__CSS__/common.css">
+</head>
+<body>
+<!-- 头部-->
+<header>
+    <!--导航-->
+    {include file="../../common/nav"}
+
+
+    <!--标题-->
+    <div class="col-md-12 title">
+        <img src=__IMG__/activity/bg.png>
+    </div>
+
+    <!--轮播图-->
+    <div id="carousel-example-generic" class="carousel slide Mycarousel" data-ride="carousel">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+            <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+        </ol>
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner" role="listbox">
+            <div class="item active">
+                <img src="__IMG__/activity/lb1.jpg">
+                <div class="carousel-caption">
+                </div>
+            </div>
+            <div class="item">
+                <img src="__IMG__/activity/lb2.jpg">
+                <div class="carousel-caption">
+                </div>
+            </div>
+            <div class="item">
+                <img src="__IMG__/activity/lb3.jpg">
+                <div class="carousel-caption">
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+<!--内容区-->
+<div class="content">
+    <!--活动区 -->
+    <div class="column">
+        <div class="column_title">
+            <div class="title_left">
+                <span>活动</span>
+            </div>
+            <div class="title_right">
+                <div class="title_text1">ACTIVITY</div>
+                <div class="title_text2">PROJECT</div>
+            </div>
+        </div>
+        <div class="column_2">
+            <ul>
+                <li>
+                    <a href="#ZT_1" data-toggle="tab"> 全部</a>
+                </li>
+                <li>
+                    <a href="#ZT_2" data-toggle="tab">地球研习社</a>
+                </li>
+                <li>
+                    <a href="#ZT_3" data-toggle="tab">story</a>
+                </li>
+                <li>
+                    <a href="#ZT_4" data-toggle="tab">去也</a>
+                </li>
+                <li>
+                    <a href="#ZT_5" data-toggle="tab">榜单</a>
+                </li>
+            </ul>
+        </div>
+        <div class="column_3">
+            <img src="__IMG__/activity/bg2.png">
+        </div>
+    </div>
+
+    <!--内容区-->
+    <div class="tab-content">
+        <div class="content_img tab-pane fade in active tab" id="ZT_1">
+            <div class="content_img">
+
+                <ul>
+                    {volist name="index" id="des" offset="0" length='12'}
+                    <li>
+                        <a href="{:url('activity/index/apply')}">
+                            <div class="img"><img src="__IMG__/activity/{$des.act_img1}" width="346">
+                                <div class="img_text">
+                                    <p>{$des.act_name}</p>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    {/volist}
+                </ul>
+            </div>
+        </div>
+        <div class="tab-pane fade  tab" id="ZT_6">
+            <div class="content_img">
+                <ul>
+                    {volist name="index" id="des" offset="12" length='9'}
+                    <li>
+                        <a href="{:url('activity/index/apply')}">
+                            <div class="img"><img src="__IMG__/activity/{$des.act_img1}" width="346">
+                                <div class="img_text">
+                                    <p>{$des.act_name}</p>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    {/volist}
+
+                </ul>
+            </div>
+        </div>
+        <div class="tab-pane fade  tab" id="ZT_3">
+            <div class="content_img">
+                <ul>
+                    {volist name="index" id="des" offset="0" length='1'}
+                    <li>
+                        <a href="{:url('activity/index/apply')}">
+                            <div class="img"><img src="__IMG__/activity/{$des.act_img1}" width="346">
+                                <div class="img_text">
+                                    <p>{$des.act_name}</p>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    {/volist}
+                    {volist name="index" id="des" offset="18" length='1'}
+                    <li>
+                        <a href="{:url('activity/index/apply')}">
+                            <div class="img"><img src="__IMG__/activity/{$des.act_img1}" width="346">
+                                <div class="img_text">
+                                    <p>{$des.act_name}</p>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    {/volist}
+                    {volist name="index" id="des" offset="19" length='1'}
+                    <li>
+                        <a href="{:url('activity/index/apply')}">
+                            <div class="img"><img src="__IMG__/activity/{$des.act_img1}" width="346">
+                                <div class="img_text">
+                                    <p>{$des.act_name}</p>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    {/volist}
+                </ul>
+            </div>
+        </div>
+
+
+
+
+        <div class="tab-pane fade  tab" id="ZT_4">
+            <div class="content_img">
+                <ul>
+                    {volist name="index" id="des" offset="2" length='1'}
+                    <li>
+                        <a href="{:url('activity/index/apply')}">
+                            <div class="img"><img src="__IMG__/activity/{$des.act_img1}" width="346">
+                                <div class="img_text">
+                                    <p>{$des.act_name}</p>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    {/volist}
+                </ul>
+            </div>
+        </div>
+
+
+
+        <div class="tab-pane fade  tab" id="ZT_5">
+            <div class="content_img">
+                <ul>
+                    {volist name="index" id="des" offset="9" length='1'}
+                    <li>
+                        <a href="{:url('activity/index/apply')}">
+                            <div class="img"><img src="__IMG__/activity/{$des.act_img1}" width="346">
+                                <div class="img_text">
+                                    <p>{$des.act_name}</p>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    {/volist}
+                </ul>
+            </div>
+        </div>
+
+
+
+        <div class="tab-pane fade  tab" id="ZT_2">
+            <div class="content_img">
+                <ul>
+                    {volist name="index" id="des" offset="1" length='1'}
+                    <li>
+                        <a href="{:url('activity/index/apply')}">
+                            <div class="img"><img src="__IMG__/activity/{$des.act_img1}" width="346">
+                                <div class="img_text">
+                                    <p>{$des.act_name}</p>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    {/volist}
+                    {volist name="index" id="des" offset="3" length='1'}
+                    <li>
+                        <a href="{:url('activity/index/apply')}">
+                            <div class="img"><img src="__IMG__/activity/{$des.act_img1}" width="346">
+                                <div class="img_text">
+                                    <p>{$des.act_name}</p>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    {/volist}
+                    {volist name="index" id="des" offset="10" length='3'}
+                    <li>
+                        <a href="{:url('activity/index/apply')}">
+                            <div class="img"><img src="__IMG__/activity/{$des.act_img1}" width="346">
+                                <div class="img_text">
+                                    <p>{$des.act_name}</p>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    {/volist}
+                    {volist name="index" id="des" offset="14" length='4'}
+                    <li>
+                        <a href="{:url('activity/index/apply')}">
+                            <div class="img"><img src="__IMG__/activity/{$des.act_img1}" width="346">
+                                <div class="img_text">
+                                    <p>{$des.act_name}</p>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    {/volist}
+
+                </ul>
+            </div>
+
+
+
+
+        </div>
+    </div>
+    <div class="num">
+        <ul>
+            <li class="active">
+                <a href="#ZT_1" data-toggle="tab">1</a>
+            </li>
+            <li>
+                <a href="#ZT_6" data-toggle="tab">2</a>
+            </li>
+        </ul>
+    </div>
+</div>
+
+<!--底部-->
+{include file="../../common/footer"}
+
+<script src="__JS__/jquery-1.12.4.js"></script>
+<script src="__JS__/bootstrap.js"></script>
+</body>
+</html>

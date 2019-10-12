@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+a {
+     text-decoration: none;
+ }
+#content{
+    min-height: 100vh;
+}
+
+#content>form{
+    width: 600px;
+    margin: 0 auto;
+}
+.f_header {
+    height: 40px;
+    line-height: 40px;
+    overflow: hidden;
+    word-wrap: break-word;
+    word-break: break-all;
+    border: none;
+    border-bottom: 1px solid #a5e4b3;
+    color: #10b041;
+
+}
+.f_content{
+    margin-top: 20px;
+    width: 600px;
+    height: 600px;
+    font-size: 14px;
+    color: silver;
+    cursor: text;
+}
+.f_submit{
+    width: 123px;
+    height: 51px;
+    border: none;
+    line-height: 51px;
+    background: #10b041;
+    color: #fff;
+    text-align: center;
+}

@@ -1,0 +1,165 @@
+/* general styling for all the hovers */
+
+.hover {
+    width: 100%;
+    height: 100%;
+    float: left;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    cursor: default;
+}
+
+.hover .overlay {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    overflow: hidden;
+    top: 0;
+    left: 0;
+}
+
+.hover img {
+    display: block;
+    position: relative;
+}
+
+.hover h2 {
+    text-transform: uppercase;
+    color: #fff;
+    text-align: center;
+    position: relative;
+    font-size: 16px;
+    padding: 8px;
+    background: rgba(0, 0, 0, 0.3);
+}
+
+.hover h3 {
+    text-transform: uppercase;
+    color: #fff;
+    text-align: center;
+    position: relative;
+    font-size: 16px;
+    padding: 8px;
+    background: rgba(0, 0, 0, 0.3);
+}
+
+.hover button.info {
+    display: inline-block;
+    text-decoration: none;
+    padding: 7px 14px;
+    text-transform: uppercase;
+    color: #fff;
+    border: 1px solid #fff;
+    margin: 50px 0 0 0;
+    border-radius: 0px;
+    background-color: transparent;
+}
+
+.hover button.info:hover {
+    box-shadow: 0 0 5px #fff;
+}
+
+/* styling to remove box shadow and border from buttons for last few effects */
+
+.hover button.nullbutton {
+    border: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+.hover button.nullbutton:hover {
+    box-shadow: none;
+}
+
+/* remove the blue line that shows on modal buttons after you have open and close a modal */
+
+.modal-open .modal, button:focus {
+    outline:none!important
+}
+
+/* styling so when hovering over a div that opens a modal the cursor changes to a pointer */
+.point {
+    cursor: pointer;
+}
+
+
+
+
+
+
+/* effect hover 4 */
+
+.hover_title1 {
+    transform: translateY(326px);
+    transition: all 0.4s ease-in-out;
+}
+
+.hover_title2 {
+    transform: translateY(120px);
+    transition: all 0.4s ease-in-out;
+}
+
+.ehover4 h3 {
+    transform: translateY(220px);
+    transition: all 0.4s ease-in-out;
+}
+
+.ehover4:hover .hover_title1 {
+    transform: translateY(10px);
+    background: rgba(0, 0, 0, 0.2);
+}
+
+.ehover4:hover .hover_title2 {
+     transform: translateY(0px);
+     background: rgba(0, 0, 0, 0.2);
+}
+
+.ehover4:hover h3 {
+    transform: translateY(5px);
+    background: rgba(0, 0, 0, 0.2);
+}
+
+.ehover4 .overlay {
+    transition: all 0.4s ease-in-out;
+}
+
+.ehover4:hover .overlay {
+    background: rgba(0, 0, 0, .4);
+}
+
+.info1 {
+    opacity: 0;
+    /*transform: scale(0);*/
+    transition: all 0.4s ease-in-out;
+    margin-top: 20px;
+    color: white;
+    text-align: justify;
+    transform: translateY(300px);
+    padding: 0 15px;
+    font-size: 13px;
+}
+
+.info2 {
+    opacity: 0;
+    /*transform: scale(0);*/
+    transition: all 0.4s ease-in-out;
+    margin-top: 20px;
+    color: white;
+    text-align: justify;
+    transform: translateY(150px);
+    padding: 0 15px;
+    font-size: 13px;
+}
+
+.ehover4:hover .info1 {
+    opacity: 1;
+    /*transform: scale(1);*/
+    transform: translateY(10px);
+}
+
+.ehover4:hover .info2 {
+    opacity: 1;
+    /*transform: scale(1);*/
+    transform: translateY(-5px);
+}

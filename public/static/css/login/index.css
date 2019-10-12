@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    background: url('../../img/login/bj.jpg') no-repeat fixed;
+    background-size: cover;
+    height: 100vh
+
+}
+
+
+.content {
+    width: 700px;
+    margin: 0 auto;
+    background: rgba(254, 248, 249, 0.8);
+    border-radius: 8px;
+}
+
+form {
+    margin-top: 130px;
+    margin-left: 50px;
+}
+
+form input {
+    margin-top: 20px;
+    width: 330px;
+    height: 40px;
+}
+
+form button {
+    margin: 20px auto;
+    background-color: #5cad77;
+    box-sizing: border-box;
+    border: 0;
+    padding: 0 15px;
+    width: 105px;
+    height: 36px;
+    line-height: 36px;
+    border-radius: 3px;
+    font-size: 16px;
+    color: #fff;
+    cursor: pointer;
+    vertical-align: top;
+}
+
+p {
+position: relative;
+    top: 105px;
+    text-align: center;
+    color: #fff;
+    font-size: 24px;
+}
+
+.cut a{
+    color: #5cad77;
+    text-decoration: none;
+    padding: 20px 0;
+}

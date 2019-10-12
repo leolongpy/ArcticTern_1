@@ -1,0 +1,11 @@
+body {
+    min-width: 1300px;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul, li {
+    list-style: none;
+}

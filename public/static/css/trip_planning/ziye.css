@@ -1,0 +1,410 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+#content {
+    /*width: 1200px;*/
+    margin: 0 auto;
+}
+
+.content_top {
+    background-color: #f7f7f7;
+    border-bottom: 1px solid #e2e2e2;
+}
+
+.con_top {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+/*面包屑导航*/
+.con_indexer {
+    line-height: 70px;
+}
+
+.con_indexer a {
+    color: #28898d;
+    font-weight: bold;
+}
+
+.con_indexer a:hover {
+    text-decoration: none;
+}
+
+.con_indexer a:focus {
+    text-decoration: none;
+}
+
+/*路线标题*/
+.con_title {
+    color: #3a9d9a;
+}
+
+.con_title a {
+    display: inline-block;
+    width: 100px;
+    height: 40px;
+    line-height: 40px;
+    color: #fff;
+    font-size: 20px;
+    background-color: #5cc3c0;
+    position: relative;
+    top: -53px;
+
+}
+
+.con_title a:hover {
+    text-decoration: none;
+}
+
+.con_title a:focus {
+    text-decoration: none;
+}
+
+/*想去*/
+.wang_go {
+    left: 972px
+}
+
+.wang_go > span {
+    margin: 0 10px
+}
+
+/*去过*/
+.went {
+    left: 992px
+}
+
+.went > span {
+    margin: 0 10px
+}
+
+/*路线信息*/
+.map_in_1 > span {
+    font-size: 40px;
+    color: #3a9d9a;
+}
+
+.map_in_2 > span {
+    font-size: 14px;
+    color: #28898d;
+}
+
+.map_in_3 {
+    margin-top: 10px;
+    margin-bottom: 10px
+}
+
+.map_in_3 span:nth-child(1) {
+    color: #3a9d9a;
+    margin-right: 20px
+}
+
+.map_in_4 {
+    margin-top: 10px
+}
+
+.map_in_4 span:nth-child(1) {
+    margin-right: 10px
+}
+
+.con_ind:nth-child(1) {
+    color: #333;
+    font-weight: bold;
+}
+
+.time {
+    padding-top: 8px
+}
+
+.con_nav span {
+    font-size: 18px;
+    padding: 0 10px;
+    color: #333;
+    line-height: 40px;
+}
+
+.con_nav span a {
+    color: #333;
+}
+
+.con_nav a:hover {
+    text-decoration: none;
+}
+
+.con_nav a:focus {
+    text-decoration: none;
+}
+
+/*基本信息*/
+.con_b_1 {
+    display: flex;
+    justify-content: space-between;
+    width: 1200px;
+    margin: 20px auto;
+}
+
+.con_map {
+    display: flex;
+    justify-content: space-between;
+}
+
+.map_in {
+    margin-right: 90px;
+}
+
+.con_txt p {
+    color: #333;
+    text-align: left;
+    margin-top: 10px;
+}
+
+.con_ind {
+    border: 1px solid #f4e48b;
+    background-color: #fffde4;
+    padding: 10px;
+}
+
+.tianjia {
+    font-size: 12px;
+    float: right;
+    padding: 8px 10px;
+    border-radius: 4px;
+    line-height: 1em;
+    text-decoration: none;
+    color: #3a9d9a;
+}
+
+.tianjia:visited {
+    color: #3a9d9a;;
+}
+
+.tianjia:hover {
+    background-color: #3ba09d;
+    color: #fff;
+}
+
+.comment {
+    padding: 10px 0;
+}
+
+.comment_item {
+    border-bottom: 1px solid #ececec;
+    padding: 12px 0;
+    overflow: auto;
+}
+.item_left {
+    font-size: 20px;
+    padding-bottom: 5px;
+    font-weight: 700;
+    color: #c0c0c0;
+}
+
+.item_right {
+    font-size: 16px;
+}
+
+/*点评*/
+#dianping {
+    margin-top: 20px;
+}
+
+#dianping form {
+    margin-top: 20px;
+}
+
+#dianping>form>button {
+    border: none;
+    margin-top: 5px;
+    display: block;
+    float: right;
+    height: 30px;
+    width: 102px;
+    text-align: center;
+    line-height: 30px;
+    color: #fff;
+    font-size: 14px;
+    background: #3a9d9a;;
+    border-radius: 3px;
+}
+
+.dptxt {
+    color: #666;
+    font-size: 20px;
+    line-height: 22px;
+}
+
+.dpdf {
+    color: #3A9D9A;
+    font-weight: bold;
+    font-size: 20px
+}
+
+#dianping textarea {
+    width: 100%;
+    height: 80px
+}
+
+/*基本信息左边*/
+.con_b_1_l {
+    width: 650px;
+}
+
+/*基本信息右边*/
+.con_b_1_r {
+    margin-left: 60px;
+    width: 500px;
+}
+
+.nicheng {
+    width: 70px;
+    text-align: center
+}
+
+/*创建线路按钮*/
+.con_b_1_r .chuangjian {
+    display: inline-block;
+    width: 70%;
+    height: 50px;
+    line-height: 50px;
+    color: #fff;
+    font-size: 24px;
+    text-align: center;
+    background-color: #fa7b00;
+    margin-bottom: 10px;
+}
+
+.chuangjian:hover {
+    text-decoration: none;
+}
+
+/*相关线路*/
+.tuijian{
+    font-size: 20px;
+}
+
+.tuijian a {
+    color: #333333 !important;
+}
+
+.tuijian a:hover {
+    color:  #333333;
+    text-decoration: none;
+}
+
+.tuijian a:focus {
+    text-decoration: none;
+}
+
+.tjjs_1 {
+    color: #28898d;
+}
+
+.tjjs_2 {
+    margin-left: 20px
+}
+
+.xiangguan_icin {
+    width: 30px;
+    height: 30px;
+    overflow: hidden;
+    background-image: url("../../img/trip_planning/route_mapicon_black.png");
+    float: left;
+    background-position-y: -183px;
+}
+
+.xiangguan_itme {
+    margin-top: 30px;
+}
+
+/*路线轨迹*/
+.con_b_2 {
+    display: none;
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.bigmap {
+    margin-top: 10px;
+    margin-left: 110px
+}
+
+.con_2_map {
+    margin-top: 20px;
+}
+
+.con_2_map span {
+    margin-right: 20px;
+}
+
+/*点评*/
+.con_b_3 {
+    display: none;
+
+}
+
+/*照片*/
+.con_b_4 {
+    display: none;
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.con_b_4 a {
+    float: right;
+    padding: 6px 18px;
+    background-color: #72bcba;
+    color: #fff;
+    font-size: 16px;
+    border-radius: 4px;
+}
+
+.con_b_4 a:hover {
+    text-decoration: none;
+}
+
+.con_b_4 a:focus {
+    text-decoration: none;
+}
+
+/*图片父容器*/
+.pic_box {
+    padding-top: 60px;
+    padding-bottom: 275px
+}
+
+.pic_box > div {
+    width: 238px;
+    height: 178px;
+    overflow: hidden;
+    float: left;
+    margin-right: 60px
+}
+
+/*头部*/
+#header {
+    width: 100%;
+
+}
+
+
+.start {
+    position: relative;
+    top: -44px;
+    font-size: 40px;
+    color: #3A9D9A;
+    margin: 0 auto;
+    width: 280px;
+    height: 0;
+}
+
+.start li {
+    float: left;
+}
+
+ul {
+    list-style: none;
+}
+

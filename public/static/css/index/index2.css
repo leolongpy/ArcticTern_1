@@ -1,0 +1,442 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+ul {
+    list-style: none;
+}
+
+/*头部*/
+#header {
+    width: 100%;
+
+}
+
+
+/*轮播图上的文字*/
+.txt_r {
+    position: absolute;
+    right: 30px
+}
+
+.txt_r_1 {
+    font-size: 48px;
+    color: #FFFFFF;
+    text-align: right
+}
+
+.txt_r_2 {
+    font-size: 16px;
+    font-weight: 700;
+    color: #FFFFFF;
+    text-align: right
+}
+
+.txt_r_3 {
+    font-size: 16px;
+    color: #FFFFFF;
+    text-align: right
+}
+
+#search {
+    position: absolute;
+    z-index: 999;
+    top: 60%;
+    left: 33%;
+}
+.sousuo{
+    width: 84%;
+    background: white;
+    margin-top: 38px;
+    display: none;
+}
+.link{
+    color: black;
+}
+.link:hover{
+    text-decoration: none;
+    color: black;
+
+}
+#search span {
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+    margin-right: 50px;
+    margin-bottom: 10px;
+}
+
+#search input {
+    font-size: 20px;
+    float: left;
+    width: 489px;
+    height: 38px;
+}
+
+#search button {
+    float: left;
+    cursor: pointer;
+    border: 0;
+    border-radius: 0 3px 3px 0;
+    width: 90px;
+    height: 38px;
+    line-height: 40px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 700;
+    background: linear-gradient(135deg, #2ed685, #10a251);
+
+}
+
+/*内容区*/
+#content {
+    width: 1300px;
+    margin: 30px auto;
+}
+
+#advertising img:nth-child(1) {
+    float: left;
+}
+
+#advertising img:nth-child(2) {
+    float: right;
+}
+
+/*户外专题*/
+/*户外路线标题*/
+#trip_planning {
+    clear: both;
+}
+
+#trip_planning > p {
+    padding-top: 20px;
+    font-size: 45px;
+    height: 74px;
+    color: #636363;
+    text-align: center;
+}
+
+.trip_w {
+    margin-top: 20px;
+}
+
+.trip_item a {
+    color: #404040;
+    font-size: 16px;
+    font-weight: normal;
+    width: 228px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    margin-bottom: 6px;
+    height: 24px;
+    line-height: 24px
+}
+
+.trip_item {
+    width: 400px;
+    float: left;
+}
+
+.trip_item:not(:nth-child(1)) {
+    margin-left: 50px;
+}
+
+.trip_item a:focus {
+    text-decoration: none;
+}
+
+.icon_1 {
+    width: 30px;
+    height: 30px;
+    overflow: hidden;
+    background-image: url("../../img/index/route_mapicon_black.png");
+    float: left;
+    background-position-y: -183px;
+}
+
+.start_1 {
+    width: 138px;
+    height: 30px;
+    overflow: hidden;
+    background: url("../../img/index/route_star.png");
+    float: right;
+}
+
+.trip_more {
+    display: block;
+    width: 235px;
+    margin: 20px auto;
+    border: 0;
+    height: 40px;
+    line-height: 40px;
+    background: #10b041;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 700;
+    text-align: center;
+    border-radius: 3px;
+    text-decoration: none;
+    clear: both;
+}
+
+.trip_more:hover {
+    background: #3f9f5f;
+    color: white;
+    text-decoration: none;
+
+}
+
+.trip_more:focus {
+    text-decoration: none;
+}
+
+/*今日推荐*/
+#destination > p {
+    margin-top: 20px;
+    font-size: 45px;
+    height: 74px;
+    color: #636363;
+    text-align: center;
+}
+
+.des_item {
+    margin-top: 20px;
+}
+
+.des_in {
+    width: 342px;
+    height: 125px;
+    border: #ECECEC 1px solid;
+    border-radius: 3px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.des_in > p > a {
+    padding-top: 10px;
+    font-size: 16px;
+    font-weight: 700;
+    color: #323232;
+    display: block;
+    -webkit-margin-before: 0.5em;
+    -webkit-margin-after: 0.5em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+}
+
+.des_in > p > a:hover {
+    color: #11B042;
+    text-decoration: none;
+}
+
+.des_in > p > a:focus {
+    text-decoration: none;
+}
+
+.in_b {
+    margin-top: 30px
+}
+
+.in_b_l {
+    color: #636363;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+    float: left
+}
+
+.in_b_r {
+    color: #959595;
+    font-weight: 700;
+    line-height: 24px;
+    float: right
+}
+
+.img_box {
+    width: 342px;
+    overflow: hidden
+}
+
+.img_box img {
+    width: 342px;
+}
+
+.des_item {
+    float: left;
+}
+
+.des_w > .des_item:not(:nth-child(4n+1)) {
+    margin-left: 137px;
+}
+
+/*图片放大效果*/
+.des_item img {
+    transition: all 1.8s;
+}
+
+.des_item img:hover {
+    transform: scale(1.3)
+}
+
+/*活动部分*/
+#activity > p {
+    padding-top: 20px;
+    clear: both;
+    margin-top: 20px;
+    font-size: 45px;
+    height: 74px;
+    color: #636363;
+    text-align: center;
+}
+
+#activity img {
+
+}
+
+.act_1 > a:not(:nth-child(1)) {
+    margin-left: 91px;
+}
+
+.act_2 > a:not(:nth-child(1)) {
+    margin-left: 91px;
+}
+
+.act_3 > a:not(:nth-child(1)) {
+    margin-left: 91px;
+}
+
+/*切换按钮*/
+.act_tabs {
+    margin: 20px 0 80px 588px;
+}
+
+.act_tab {
+    float: left;
+}
+
+.act_tab button {
+    background: #F5F5F5;
+    color: #AAAAAA;
+    font-size: 16px;
+    border: none;
+    margin-right: 10px;
+    width: 35px;
+    height: 35px;
+}
+
+.act_tab button:hover {
+    background-color: #3f9f5f;
+    color: white;
+}
+
+.act_tab button:focus {
+    background-color: #3f9f5f;
+    color: white;
+}
+
+/*app部分*/
+
+.app > span {
+    font-size: 28px;
+    line-height: 100px;
+    height: 74px;
+    color: #636363;
+    float: left;
+    margin-right: 20px
+}
+
+.app_item {
+    width: 130px;
+    float: left;
+}
+
+.app_item > span {
+    margin-left: 12px;
+    margin-top: 8px;
+    font-size: 14px;
+    color: #636363;
+}
+
+/*微信介绍*/
+.wechat > span {
+    font-size: 24px;
+    line-height: 100px;
+    height: 74px;
+    color: #636363;
+}
+
+.wxh {
+    float: left;
+    margin-right: 20px
+}
+
+#footer {
+    margin-top: 150px;
+    clear: both;
+    width: 100%;
+    border-top: 3px solid #3CC767;
+    height: 386px;
+}
+
+.footer_top {
+    width: 100%;
+    height: 300px;
+    background-color: #323232;
+}
+
+.footer_bottom {
+    width: 100%;
+    height: 86px;
+    background-color: #242424;
+}
+
+.footer_list {
+    width: 40%;
+    display: flex;
+    justify-content: space-around;
+    margin-left: 50px;
+}
+
+.footer_list ul {
+    margin-top: 30px;
+}
+
+.footer_list li {
+    padding-left: 20px;
+    padding-bottom: 10px;
+    font-weight: 700;
+    color: silver;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.footer_list li a {
+    color: #959595;
+    font-size: 14px;
+    line-height: 24px;
+
+}
+
+.footer_list li a:hover {
+    color: silver;
+    text-decoration: none;
+}
+
+.footer_list li a:focus {
+    text-decoration: none;
+}
+
+.footer_bottom p {
+    text-align: center;
+    line-height: 20px;
+    color: #959595;
+}
+
+.b_p {
+    padding-top: 20px
+}

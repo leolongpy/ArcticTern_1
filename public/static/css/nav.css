@@ -1,0 +1,248 @@
+
+#nav {
+    width: 100%;
+    background-color: #323232;
+    height: 32px;
+    position: relative;
+    z-index: 2;
+}
+
+.subNav {
+    float: right;
+    margin-right: 20px;
+}
+
+.subNav > ul > li {
+    float: left;
+    line-height: 32px;
+    padding: 0 8px;
+}
+
+.subNav > ul > li > a {
+    color: #c0c0c0;
+    text-decoration: none;
+}
+
+.subNav > ul > li > a:hover {
+    color: #10b041;
+}
+
+.subNav p {
+    color: #c0c0c0;
+    font-size: 17px;
+    padding-right: 10px;
+	margin:0
+}
+
+.nav_logo {
+    float: left;
+    margin: 5px 20px 0 35px;
+    width: 58px;
+    height: 18px;
+}
+
+.mainNav {
+    text-align: center;
+    font-family: "Microsoft YaHei","宋体","Segoe UI", "Lucida Grande", Helvetica, Arial,sans-serif;
+    position: relative;
+    list-style: none;
+    font-weight: 400;
+    font-size: 0;
+    text-transform: uppercase;
+    display: inline-block;
+}
+
+
+
+.mainNav >li >a {
+    text-decoration: none;
+    color: #c0c0c0;
+    height: 32px;
+    width: 80px;
+    display: inline-block;
+    line-height: 32px;
+}
+
+
+
+.mainNav >li >a:hover {
+    color: #10b041;
+}
+.mainNav >li {
+    font-size: 14px;
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+    z-index: 5;
+    min-width: 80px;
+    color: #c0c0c0;
+    font-weight: bold;
+
+}
+
+.mainNav >li:hover {
+    color: #10b041;
+}
+
+li {
+    margin: 0;
+}
+
+.drop {
+    overflow: hidden;
+    list-style: none;
+    position: absolute;
+    padding: 0;
+    width: 110px;
+    left: -15px;
+    border-radius: 4px;
+    top: 36px;
+    text-align: left;
+}
+
+.drop div {
+    -webkit-transform: translate(0, -100%);
+    -moz-transform: translate(0, -100%);
+    -ms-transform: translate(0, -100%);
+    transform: translate(0, -100%);
+    -webkit-transition: all 0.5s 0.1s;
+    -moz-transition: all 0.5s 0.1s;
+    -ms-transition: all 0.5s 0.1s;
+    transition: all 0.5s 0.1s;
+    position: relative;
+}
+.drop li {
+    display: block;
+    width: 100%;
+    background: #f5f5f5 !important;
+    font-weight: normal;
+    padding-bottom: 6px;
+    padding-left: 5px;
+}
+
+.drop li:first-child {
+    padding-top: 8px;
+}
+
+.drop a {
+    color: black;
+    text-decoration: none;
+}
+
+.drop a:hover {
+    color: #10b041;
+}
+
+#marker {
+    height: 3px;
+    position: absolute;
+    bottom: 0;
+    width: 80px;
+    z-index: 2;
+    -webkit-transition: all 0.35s;
+    -moz-transition: all 0.35s;
+    -ms-transition: all 0.35s;
+    transition: all 0.35s;
+}
+
+#main li:nth-child(1):hover ul div {
+    -webkit-transform: translate(0, 0);
+    -moz-transform: translate(0, 0);
+    -ms-transform: translate(0, 0);
+    transform: translate(0, 0);
+    background: #10b041 !important;
+}
+#main li:nth-child(1):hover ~ #marker {
+    -webkit-transform: translate(0px, 0);
+    -moz-transform: translate(0px, 0);
+    -ms-transform: translate(0px, 0);
+    transform: translate(0px, 0);
+    background: #10b041 !important;
+}
+
+#main li:nth-child(2):hover ul div {
+    -webkit-transform: translate(0, 0);
+    -moz-transform: translate(0, 0);
+    -ms-transform: translate(0, 0);
+    transform: translate(0, 0);
+    background: #10b041 !important;
+}
+#main li:nth-child(2):hover ~ #marker {
+    -webkit-transform: translate(80px, 0);
+    -moz-transform: translate(80px, 0);
+    -ms-transform: translate(80px, 0);
+    transform: translate(80px, 0);
+    background: #10b041 !important;
+}
+
+#main li:nth-child(3):hover ul div {
+    -webkit-transform: translate(0, 0);
+    -moz-transform: translate(0, 0);
+    -ms-transform: translate(0, 0);
+    transform: translate(0, 0);
+    background: #10b041 !important;
+}
+#main li:nth-child(3):hover ~ #marker {
+    -webkit-transform: translate(160px, 0);
+    -moz-transform: translate(160px, 0);
+    -ms-transform: translate(160px, 0);
+    transform: translate(160px, 0);
+    background: #10b041 !important;
+}
+
+#main li:nth-child(4):hover ul div {
+    -webkit-transform: translate(0, 0);
+    -moz-transform: translate(0, 0);
+    -ms-transform: translate(0, 0);
+    transform: translate(0, 0);
+    background: #10b041 !important;
+}
+#main li:nth-child(4):hover ~ #marker {
+    -webkit-transform: translate(240px, 0);
+    -moz-transform: translate(240px, 0);
+    -ms-transform: translate(240px, 0);
+    transform: translate(240px, 0);
+    background: #10b041 !important;
+}
+#main li:nth-child(5):hover ul div {
+    -webkit-transform: translate(0, 0);
+    -moz-transform: translate(0, 0);
+    -ms-transform: translate(0, 0);
+    transform: translate(0, 0);
+    background: #10b041 !important;
+}
+#main li:nth-child(5):hover ~ #marker {
+    -webkit-transform: translate(320px, 0);
+    -moz-transform: translate(320px, 0);
+    -ms-transform: translate(320px, 0);
+    transform: translate(320px, 0);
+    background: #10b041 !important;
+}
+#main li:nth-child(6):hover ul div {
+    -webkit-transform: translate(0, 0);
+    -moz-transform: translate(0, 0);
+    -ms-transform: translate(0, 0);
+    transform: translate(0, 0);
+    background: #10b041 !important;
+}
+#main li:nth-child(6):hover ~ #marker {
+    -webkit-transform: translate(400px, 0);
+    -moz-transform: translate(400px, 0);
+    -ms-transform: translate(400px, 0);
+    transform: translate(400px, 0);
+    background: #10b041 !important;
+}
+#main li:nth-child(7):hover ul div {
+    -webkit-transform: translate(0, 0);
+    -moz-transform: translate(0, 0);
+    -ms-transform: translate(0, 0);
+    transform: translate(0, 0);
+    background: #10b041 !important;
+}
+#main li:nth-child(7):hover ~ #marker {
+    -webkit-transform: translate(480px, 0);
+    -moz-transform: translate(480px, 0);
+    -ms-transform: translate(480px, 0);
+    transform: translate(480px, 0);
+    background: #10b041 !important;
+}

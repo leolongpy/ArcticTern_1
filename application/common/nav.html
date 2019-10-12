@@ -1,0 +1,82 @@
+<div id="nav">
+    <div class="nav_logo">
+        <a href="{:url('index/index/index')}">
+            <!--<img src="__IMG__/destination/logo_116x36.png" width="58px" height="18px">-->
+        </a>
+
+    </div>
+    <ul id="main" class="mainNav">
+        <li>
+            <a href="{:url('index/index/index')}">首页</a>
+        </li>
+        <li>
+            <a href="#">路线</a>
+            <ul class="drop">
+                <div>
+                    <li>
+                        <a href="{:url('trip_planning/index/index')}">
+                            <span class="glyphicon glyphicon-plane"></span>
+                            行程规划
+                        </a>
+                    </li>
+                    <li>
+                        <a href="{:url('destination/index/index')}">
+                            <span class="glyphicon glyphicon-map-marker"></span>
+                            目的地
+                        </a>
+                    </li>
+                </div>
+            </ul>
+        </li>
+        <li>
+            <a href="{:url('fingerpost/index/index')}">户外指南</a>
+        </li>
+        <li>
+            <a href="{:url('activity/index/index')}">活动</a>
+        </li>
+        <li>
+            <a href="{:url('about/index/index')}">社区</a>
+        </li>
+        <li>
+            <a href="#">服务</a>
+        </li>
+        <li>
+            <a href="{:url('about/index/index')}">关于我们</a>
+        </li>
+        <div id="marker"></div>
+    </ul>
+    <div class="subNav">
+
+        <ul>
+            <li>
+                <a href="#">
+                    <i class="glyphicon glyphicon-search"></i>
+                </a>
+            </li>
+            <li>
+                <p>丨</p>
+            </li>
+            <li>
+                <a href="#">
+                    <i class="glyphicon glyphicon-user"></i>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <i class="glyphicon glyphicon-phone"></i>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <i class="glyphicon glyphicon-globe"></i>
+                </a>
+            </li>
+            <li>
+                <a href="{:url('login/index/zhuye')}">{$Think.session.user_name}</a>
+            </li>
+            <li>
+                <a href="{:url('login/index/index')}">登录|注册</a>
+            </li>
+        </ul>
+    </div>
+</div>

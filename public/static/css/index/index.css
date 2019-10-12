@@ -1,0 +1,431 @@
+body {
+    min-width: 1920px;
+}
+
+#wrapper, #header, #banner, #content, #advertising, #trip_planning, #destination, #activity, #app, #footer, .footer_bottom, .footer_top {
+    width: 1898px;
+}
+
+/*左边导航*/
+.nav_l {
+    margin-left: 15px;
+}
+
+/*导航的样式*/
+.nav_l li > a, .nav_r li > a {
+    position: relative;
+    z-index: 33;
+    float: left;
+    font-size: 18px;
+    color: white;
+    font-weight: 900;
+    line-height: 60px;
+    margin-right: 20px;
+}
+
+.nav_l li a:hover, .nav_r li a:hover {
+    text-decoration: none;
+}
+
+.nav_l li a:focus, .nav_r li a:focus {
+    text-decoration: none;
+}
+
+/*右边导航的包含块*/
+.nav_r_w {
+    margin-left: 1605px
+}
+
+/*导航的二级列表*/
+.nav_list {
+    display: none;
+    clear: both;
+    border-radius: 3px;
+    top: 50px;
+    left: 50px;
+    z-index: 66;
+    position: absolute;
+    width: 120px;
+    height: 80px;
+    background-color: white;
+}
+
+.nav_list a {
+
+    line-height: 40px;
+    font-size: 16px;
+    color: #636363;
+}
+
+.second_list_icon {
+    margin-top: 20px;
+}
+
+/*轮播图*/
+#banner {
+    position: absolute;
+    top: 0;
+}
+
+/*轮播图上的文字*/
+.txt_r {
+    position: absolute;
+    right: 30px
+}
+
+.txt_r_1 {
+    font-size: 48px;
+    color: #FFFFFF;
+    text-align: right
+}
+
+.txt_r_2 {
+    font-size: 16px;
+    font-weight: 700;
+    color: #FFFFFF;
+    text-align: right
+}
+
+.txt_r_3 {
+    font-size: 16px;
+    color: #FFFFFF;
+    text-align: right
+}
+
+/*搜素框*/
+#search {
+    margin-top: 340px;
+}
+
+#search span {
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+    margin-right: 50px;
+    margin-bottom: 10px;
+}
+
+#search input {
+    font-size: 20px;
+    float: left;
+    width: 489px;
+    height: 38px;
+}
+
+#search button {
+    float: left;
+    cursor: pointer;
+    border: 0;
+    border-radius: 0 3px 3px 0;
+    width: 90px;
+    height: 38px;
+    line-height: 40px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 700;
+    background: linear-gradient(135deg, #2ed685, #10a251);
+
+}
+
+/*广告的包含块*/
+.adv_w {
+    width: 1610px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between
+}
+
+/*广告部分*/
+#advertising {
+
+    margin: 0 auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    position: absolute;
+    top: 680px;
+}
+
+/*户外路线部分*/
+#trip_planning {
+    position: absolute;
+    top: 830px;
+
+}
+
+/*户外路线的包含块*/
+.trip_w {
+    width: 1610px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between
+}
+
+/*户外路线标题*/
+#trip_planning > p {
+    margin-top: 20px;
+    font-size: 45px;
+    height: 74px;
+    color: #636363;
+    text-align: center;
+}
+
+.trip_item a {
+    color: #404040;
+    font-size: 16px;
+    font-weight: normal;
+    width: 228px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    margin-bottom: 6px;
+    height: 24px;
+    line-height: 24px
+}
+
+.trip_item {
+    width: 400px;
+}
+
+.trip_item a:focus {
+    text-decoration: none;
+}
+
+.icon_1 {
+    width: 30px;
+    height: 30px;
+    overflow: hidden;
+    background-image: url("../../img/index/route_mapicon_black.png");
+    float: left;
+    background-position-y: -183px;
+}
+
+.start_1 {
+    width: 138px;
+    height: 30px;
+    overflow: hidden;
+    background: url("../../img/index/route_star.png");
+    float: right;
+}
+
+/*今日推荐的包含块*/
+.des_w {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 90%;
+    margin: 0 auto;
+}
+
+/*今日推荐部分*/
+#destination {
+    position: absolute;
+    top: 1260px;
+}
+
+#destination > p {
+    margin-top: 20px;
+    font-size: 45px;
+    height: 74px;
+    color: #636363;
+    text-align: center;
+}
+
+.des_item {
+    margin-top: 20px;
+}
+
+.des_in {
+    width: 342px;
+    height: 125px;
+    border: #ECECEC 1px solid;
+    border-radius: 3px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.des_in > p > a {
+    padding-top: 10px;
+    font-size: 16px;
+    font-weight: 700;
+    color: #323232;
+    display: block;
+    -webkit-margin-before: 0.5em;
+    -webkit-margin-after: 0.5em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+}
+
+.des_in > p > a:hover {
+    color: #11B042;
+    text-decoration: none;
+}
+
+.des_in > p > a:focus {
+    text-decoration: none;
+}
+
+.in_b {
+    margin-top: 30px
+}
+
+.in_b_l {
+    color: #636363;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+    float: left
+}
+
+.in_b_r {
+    color: #959595;
+    font-weight: 700;
+    line-height: 24px;
+    float: right
+}
+
+.trip_more {
+    display: block;
+    width: 235px;
+    margin: 20px auto;
+    border: 0;
+    height: 40px;
+    line-height: 40px;
+    background: #10b041;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 700;
+    text-align: center;
+    border-radius: 3px;
+    text-decoration: none;
+    clear: both;
+}
+
+.trip_more:hover {
+    background: #3f9f5f;
+    color: white;
+    text-decoration: none;
+
+}
+
+.trip_more:focus {
+    text-decoration: none;
+}
+
+/*图片放大效果*/
+.des_item img {
+    transition: all 1.8s;
+}
+
+.des_item img:hover {
+    transform: scale(1.3)
+}
+
+/*活动部分*/
+#activity {
+    position: absolute;
+    top: 2120px;
+}
+
+#activity > p {
+    margin-top: 20px;
+    font-size: 45px;
+    height: 74px;
+    color: #636363;
+    text-align: center;
+}
+
+#activity img {
+
+}
+
+.img_box {
+    width: 342px;
+    overflow: hidden
+}
+
+.img_box img {
+    width: 342px;
+}
+
+/*切换按钮*/
+.act_tabs {
+    margin: 20px 0px 80px 880px;
+}
+
+.act_tab {
+    float: left;
+}
+
+.act_tab button {
+    background: #F5F5F5;
+    color: #AAAAAA;
+    font-size: 16px;
+    border: none;
+    margin-right: 10px;
+    width: 35px;
+    height: 35px;
+}
+
+.act_tab button:hover {
+    background-color: #3f9f5f;
+    color: white;
+}
+
+.act_tab button:focus {
+    background-color: #3f9f5f;
+    color: white;
+}
+
+/*APP介绍*/
+#app {
+    margin: 0 auto;
+    position: absolute;
+    top: 2630px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.app > span {
+    font-size: 28px;
+    line-height: 100px;
+    height: 74px;
+    color: #636363;
+    float: left;
+    margin-right: 20px
+}
+
+.app_item {
+    float: left;
+}
+
+.app_item > span {
+    margin-left: 24px;
+    margin-top: 8px;
+    font-size: 14px;
+    color: #636363;
+}
+
+/*微信介绍*/
+.wechat > span {
+    font-size: 28px;
+    line-height: 100px;
+    height: 74px;
+    color: #636363;
+}
+
+.wxh {
+    float: left;
+    margin-right: 20px
+}
+
+/*底部*/
+
+
+.act_1, .act_2, .act_3 {
+    width: 1610px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between
+}

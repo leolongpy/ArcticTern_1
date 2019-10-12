@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="icon" href="__IMG__/activity/logo_2.png">
+
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="__CSS__/bootstrap.css">
+    <link rel="stylesheet" href="__CSS__/destination/create.css">
+    <link rel="stylesheet" href="__CSS__/nav.css">
+    <link rel="stylesheet" href="__CSS__/footer.css">
+    <link rel="stylesheet" href="__CSS__/common.css">
+</head>
+<body>
+<div id="warpper">
+    <div id="header">
+        <!--导航-->
+        {include file="../../common/nav"}
+    </div>
+    <!--头部结束-->
+    <div id="content">
+        <form action="">
+            <input type="text" class="f_header" placeholder="在这里输入标题">
+            <br>
+            <textarea  class="f_content" placeholder="在这里输入内容"></textarea>
+            <br>
+            <input type="submit" class="f_submit" value="发表游记">
+        </form>
+    </div>
+    <!--底部开始-->
+    {include file="../../common/footer"}
+    <!--底部结束-->
+
+</div>
+<script src="__JS__/jquery-1.12.4.js"></script>
+<script src="__JS__/bootstrap.js"></script>
+</body>
+</html>

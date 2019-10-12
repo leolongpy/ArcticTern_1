@@ -1,0 +1,298 @@
+<?php if (!defined('THINK_PATH')) exit(); /*a:1:{s:70:"E:\xampp\htdocs\ArcticTern_1/application/mobile\view\index\xianlu.html";i:1533623319;}*/ ?>
+<!DOCTYPE html>
+<html>
+	<!--
+        	作者：仲楚平 1114970276@qq.com
+        	时间：2018-07-31
+        	描述：线路详情手机端
+        -->
+
+	<head>
+		<meta charset="UTF-8">
+		<title>线路详情手机端</title>
+		<meta name="viewport" content="width=device-width,initial-scale=1.0">
+		<link href="/ArcticTern_1/public/static/css/bootstrap.css" rel="stylesheet">
+		<link href="/ArcticTern_1/public/static/mobile/css/XianLu.css" rel="stylesheet">
+	</head>
+
+	<body>
+		<!--导航栏开始-->
+		<nav class="navbar navbar-default" id="top">
+			<div class="container-fluid">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+    <span class="glyphicon glyphicon-home" aria-hidden="true"></span>
+    
+     </button>
+					<a class="navbar-brand" href="#"><span class="glyphicon glyphicon glyphicon-menu-left" aria-hidden="true"></span></a>
+					<a class="navbar-brand" style="position: relative;left: 22%;bottom: 5px;font-family: '幼圆';">
+						<h4>线路详情</h4></a>
+				</div>
+				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+					<ul class="nav navbar-nav">
+						<li class="active">
+							<a href="#">回到主页<span class="sr-only">(current)</span></a>
+						</li>
+						<li class="">
+							<a href="#">线路模块<span class="sr-only">(current)</span></a>
+						</li>
+						<li class="dropdown">
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown">个人中心 <span class="caret"></span></a>
+							<ul class="dropdown-menu">
+								<div class="admin-center">
+									<div class="admin-touxiang">
+										<img src="/ArcticTern_1/public/static/mobile/img/touxiang.jpg" /style="width: 100%;">
+									</div>
+									<div class="admin-change">
+										<h5>欢迎，陈先生</h5>
+									</div>
+									<div class="admin-choose">
+										<h5>话题数</h5>
+										<h4 style="float: right;">0</h4>
+									</div>
+									<div class="admin-choose">
+										<h5>讨论数</h5>
+										<h4>0</h4>
+									</div>
+									<div class="admin-choose">
+										<h5>活动数</h5>
+										<h4>0</h4>
+									</div>
+									<div class="admin-button">
+										<h2>退出登录</h2>
+									</div>
+								</div>
+								<li role="separator" class="divider"></li>
+								<li>
+									<a href="#" style="text-align: center;font-family: '幼圆';">关于我们&nbsp;&nbsp;|&nbsp;&nbsp;移动应用</a>
+								</li>
+							</ul>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+		<!--导航栏结束-->
+		<!--内容头部开始-->
+		<div class="header-banner">
+			<div class="header-img">
+				<img src="/ArcticTern_1/public/static/mobile/img/bridge.jpg" />
+				<div class="header-img-button">
+					<a>摄影</a>
+				</div>
+			</div>
+			<div class="header-bt">
+				<div class="pf-bt">
+					<h4>清远全程马拉松线路</h4>
+				</div>
+				<div class="header-pf">
+					<div class="pf-star">
+						<span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+						<span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+						<span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+						<span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+						<span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+					</div>
+					<div class="pf-fenshu">
+						<a>4.6</a><span>分(24条点评)</span>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--头部内容结束-->
+		<!--基本信息开始-->
+		<div class="details">
+			<div class="details-xiangxi">
+				<span>道路状况：</span>
+				<a>公路</a>
+			</div>
+			<div class="details-xiangxi">
+				<span>活动时长：</span>
+				<a>3小时</a>
+			</div>
+			<div class="details-xiangxi">
+				<span>所属类型：</span>
+				<a>跑步</a>
+			</div>
+			<div class="details-xiangxi">
+				<span>最佳季节：</span>
+				<a>春、秋</a>
+			</div>
+		</div>
+		<!--基本信息结束-->
+		<!--发起人部分开始-->
+		<div class="sponsor">
+			<div class="sponsor-left">
+				<div class="sponsor-touxiang">
+					<img src="/ArcticTern_1/public/static/mobile/img/touxiang.jpg" />
+				</div>
+			</div>
+			<div class="sponsor-right">
+				<h5>发起人：陈先生</h5>
+				<h6>信用评级：优秀</h6>
+				<h6>总出行人数：98</h6>
+			</div>
+			<div class="sponsor-arrow">
+				<span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span>
+			</div>
+		</div>
+		<!--发起人部分内容结束-->
+		<!--详细介绍内容部分开始-->
+		<div class="particular">
+			<div class="particular-top">
+				<div class="particular-nav">
+					<a href="#jianjie">线路简介</a>
+				</div>
+				<div class="particular-nav">
+					<a href="#biaoqian">特色标签</a>
+				</div>
+				<div class="particular-nav">
+					<a href="#weizhi">交通位置</a>
+				</div>
+			</div>
+			<div class="particular-jianjie-bt">
+				<a id="jianjie">线路简介
+					<a>
+			</div>
+			<div class="particular-X"></div>
+			<div class="particular-content">
+				<p>大鹏镇人少空旷，休闲氛围浓郁。在鹏飞路、中山路、银滩路、公园路这些纯粹市政干道骑行溜达，有着市内不具备的浪漫温情感，速度会自然而然慢下半拍。大鹏所城和较场尾属于旅游点，碰上淡季进去走街串巷，给纯粹的骑程添加文化元素。
+					<br/> 此外，锣鼓山绿道，锣鼓山脚生态农业园，所城外科技农场和大鹏径南坡，各自像一道道不大的餐，铺装砖路、水泥路、砂石路和纯越野路，样样能体验。
+				</p>
+			</div>
+			<div class="particular-jianjie-bt">
+				<a id="biaoqian">特色标签
+					<a>
+			</div>
+			<div class="particular-X"></div>
+			<div class="particular-content">
+				<p>山地越野/城市休闲/山海风光/4+2/田园</p>
+			</div>
+			<div class="particular-jianjie-bt">
+				<a id="weizhi">交通位置
+					<a>
+			</div>
+			<div class="particular-X"></div>
+			<div class="particular-content">
+				<p>从新东路口到鹿嘴山庄全长约12公里，沿着海岸公路而行，同时也是海边骑行的最佳线路。</p>
+				<div class="particular-warning">
+					<a id="clickk">点击查看注意事项！</a><br/>
+					<a id="warning">穿过鲜花与绿树掩映的林荫，过七娘山，下高岭古村，到海上运动基地之后，视野会一下豁然开朗。左边，一碧万顷的大亚湾一览无余；右边，七娘山连绵叠翠；近处，洁白的沙滩，远处，美丽的小岛。景色绝佳。</a>
+				</div>
+
+			</div>
+		</div>
+		<!--内容部分结束-->
+		<!--评论部分内容开始-->
+		<div class="commenter-button">
+			<div class="commenter-button-left">
+				<a>最新点评</a>
+			</div>
+			<div class="commenter-button-right">
+				<div class="button-PL">
+					<span class="glyphicon glyphicon-thumbs-up" aria-hidden="true"></span>
+					<a>我要点评</a>
+				</div>
+			</div>
+		</div>
+		<div class="commenter">
+			<div class="wtf">
+				<div class="wtf-touxiang">
+					<div class="wtf-touxiang-one">
+						<img src="/ArcticTern_1/public/static/mobile/img/touxiang.jpg" />
+					</div>
+				</div>
+				<div class="wtf-top">
+					<span id="name">陈先生</span>&nbsp;&nbsp;<span id="time">2017-02-27 16:55:59</span>
+					<div class="top-star">
+						<span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+						<span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+						<span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+						<span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+						<span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+					</div>
+				</div>
+				<div class="wtf-bottom">
+					<p>在海边，很清新，很休闲，很值得推荐的一条线路。</p>
+				</div>
+			</div>
+			<div class="wtf">
+				<div class="wtf-touxiang">
+					<div class="wtf-touxiang-one">
+						<img src="/ArcticTern_1/public/static/mobile/img/tx3.jpg" />
+					</div>
+				</div>
+				<div class="wtf-top">
+					<span id="name">黄先生</span>&nbsp;&nbsp;<span id="time">2017-02-27 16:55:59</span>
+					<div class="top-star">
+						<span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+						<span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+						<span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+						<span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+						<span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+					</div>
+				</div>
+				<div class="wtf-bottom">
+					<p>2016国庆前后，有谁一起去啊？？？？报名报名</p>
+				</div>
+			</div>
+			<div class="wtf">
+				<div class="wtf-touxiang">
+					<div class="wtf-touxiang-one">
+						<img src="/ArcticTern_1/public/static/mobile/img/tx2.jpg" />
+					</div>
+				</div>
+				<div class="wtf-top">
+					<span id="name">余先生</span>&nbsp;&nbsp;<span id="time">2017-02-27 16:55:59</span>
+					<div class="top-star">
+						<span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+						<span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+						<span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+						<span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+						<span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+					</div>
+				</div>
+				<div class="wtf-bottom">
+					<p>海岸线之美，在深圳一定要去，这个季节在那露营的也很多的</p>
+				</div>
+			</div>
+			<div class="many">
+				<a>查看更多</a>
+			</div>
+		</div>
+		<!--评论部分结束-->
+		<!--声明地区开始-->
+		<div class="footer">
+			<div class="footer-top">
+				<a style="font-size: 24px;">Arctic tern</a><br />
+				<a> ©1114970276@qq.com Design by ZCP</a>
+			</div>
+		</div>
+		<!--声明地区结束-->
+		<!--底部滚动条内容开始-->
+		<div class="join">
+			<div class="join-left">
+				<span class="glyphicon glyphicon-paperclip" aria-hidden="true"></span>
+				<a>分享</a>
+				<span class="glyphicon glyphicon-heart" aria-hidden="true"></span>
+				<a>收藏</a>
+			</div>
+			<div class="join-right">
+				<h4>我要加入</h4>
+			</div>
+		</div>
+		<!--底部跟随内容结束-->
+		<div class="quit">
+			<a href="#top"><span class="glyphicon glyphicon-step-backward" aria-hidden="true"></span></a>
+		</div>
+	</body>
+	<script src="https://cdn.bootcss.com/jquery/1.12.4/jquery.min.js"></script>
+	<script src="/ArcticTern_1/public/static/js/bootstrap.js"></script>
+	<script>
+		$("#clickk").click(function() {
+			$("#warning").slideToggle();
+		});
+	</script>
+
+</html>

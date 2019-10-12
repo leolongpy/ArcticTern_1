@@ -1,0 +1,447 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    min-width: 1330px;
+}
+.container{
+    height: 1800px;
+    background-color: white;
+    padding: 0px;
+}
+
+/*标头*/
+.nav_bar{
+    height: 70px;
+    position: relative;
+    z-index: 4;
+    width: 100%;
+    background: #f5f5f5;
+    display: flex;
+    justify-content: center;
+}
+.nav_bar_box{
+    width: 1000px;
+    height: 70px;
+    /*background-color: red;*/
+
+}
+.nav_bar_Paris{
+    width: 50%;
+    height: 70px;
+    /*background-color: pink;*/
+}
+/*搜索框*/
+.search{
+    width: 180px;
+    height: 50px;
+    /*background-color: blue;*/
+    margin-left: 800px;
+    margin-top: -60px;
+}
+.glyphicon-search{
+    margin-left: 155px;
+    color: gainsboro;
+}
+.search_icon{
+    margin-top: -25px;
+}
+.form-control{
+    margin-top: 7px;
+}
+.nav_bar a{
+    text-decoration: none;
+    color: #636363;
+}
+
+.nav_bar li{
+    float: left;
+    height: 40px;
+    list-style: none;
+    position: relative;
+    line-height: 63px;
+    z-index: 2;
+    cursor: pointer;
+}
+.text{
+    color: #636363;
+    font-size: 24px;
+    text-decoration:none;
+}
+.line{
+    background: #ececec;
+    height: 30px;
+    width: 1px;
+    padding: 0;
+    margin: 15px 10px 0;
+}
+.menu{
+    padding-right: 15px;
+}
+/*标题*/
+.destination{
+    width: 100%;
+    height: 200px;
+    /*background-color: red;*/
+    display: flex;
+    justify-content: center;
+}
+.destination_box{
+    width: 1000px;
+    height: 200px;
+    /*background-color: #187be0;*/
+}
+.destination_text{
+    width: 33%;
+    height: 20%;
+    /*background-color: #10b041;*/
+    margin-top: 20px;
+}
+.destination_text a{
+    color: #0073b6;
+}
+.destination_Eiffel{
+    width: 33%;
+    height: 60%;
+    /*background-color: red;*/
+}
+.destination_Eiffel h1 a {
+    color: #147850;
+    text-decoration: none;
+}
+/*想去去过*/
+.function{
+    width: 50%;
+    height: 60%;
+    /*background-color: pink;*/
+    float: right;
+    margin-top: -20px;
+    padding: 0;
+}
+.function li{
+    list-style: none;
+    float: left;
+    margin-left: 110px;
+    margin-top: 45px;
+}
+.function img{
+    width: 50px;
+    height: 50px;
+}
+.function span{
+    font-size: 16px;
+    position: absolute;
+    top: 245px;
+    margin-left: -42px;
+}
+.function_box1 span{
+    margin-left: -40px;
+}
+.function_box2 span{
+    margin-left: -40px;
+}
+
+.function_box3 span{
+    margin-left:-52px;
+}
+.content{
+    width: 100%;
+    height: 1350px;
+    background-color: #f5f5f5;
+    display: flex;
+    justify-content: center;
+}
+/*景点热度*/
+.introduce{
+    width: 680px;
+    height: 1250px;
+    background-color: #fff;
+    margin-left: -12px;
+    margin-top: 40px;
+}
+.picture{
+    width: 300px;
+    height: 200px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.score{
+    width: 318px;
+    height: 140px;
+    /*background-color: red;*/
+    margin-left: 350px;
+    margin-top: -170px;
+}
+.number{
+    float: left;
+    font-size: 28px;
+    font-weight: 700;
+}
+/*分*/
+.points{
+    height: 21px;
+    padding: 10px 0 17px;
+    overflow: hidden;
+    color: #3f9f5f;
+    line-height: 10px;
+}
+.unit{
+    float: left;
+    font-size: 14px;
+    margin: 3px 0 0 5px;
+}
+.star{
+    width: 310px;
+    height: 30px;
+    /*background-color: skyblue;*/
+}
+.glyphicon-star{
+    font-size: 20px;
+    margin: 3px;
+    color: forestgreen;
+}
+.ranking{
+    /*background-color: #10b041;*/
+    line-height: 25px;
+    color: #636363;
+    font-size: 14px;
+    background: url(//common2.qyerstatic.com/place/project/images/poi/icons-unit.png) no-repeat 2px -159px;
+    padding-left: 22px;
+    margin-top: 22px;
+}
+.ranking span {
+    color: #f26622;
+    font-size: 14px;
+    padding-left: 10px;
+}
+/*折扣*/
+.discount{
+    width: 640px;
+    height: 100px;
+    /*background-color: purple;*/
+    margin-top: 50px;
+    margin-left: 20px;
+}
+.discount_first{
+    height: 27px;
+    width: 100%;
+    /*background-color: pink;*/
+}
+.discount_first a{
+    font-size: 17px;
+    font-weight: bold;
+    color: coral;
+
+}
+.discount_first a:hover, a:focus {
+    color: coral;
+    text-decoration: none;
+}
+.discount_first span{
+    font-size: 15px;
+    padding-left: 340px;
+}
+.discount_two{
+    width: 100%;
+    height: 80px;
+    /*background-color: yellow;*/
+}
+.discount_war{
+    width: 100%;
+    height: 30px;
+    /*background-color: red;*/
+}
+.discount_title{
+    width: 85%;
+    height: 30px;
+    /*background-color: #187be0;*/
+    margin-left: 30px;
+    margin-top: 5px;
+}
+.discount_title span{
+    font-size: 16px;
+    color: #ff7466;
+    margin-left: 130px;
+
+}
+.ticket{
+    color: #323232;
+    font-size: 14px;
+    font-weight: 700;
+    cursor:pointer;
+}
+.number_money{
+    font-size: 16px;
+    color: #ff7466;
+    padding-left: 30px;
+}
+/*景点模块*/
+.Text_area{
+    width: 640px;
+    height: 600px;
+    /*background-color: brown;*/
+    margin-left: 20px;
+    margin-top: -40px;
+}
+.Text_first{
+    width: 100%;
+    /*background-color: red;*/
+    font-size: 14px;
+    margin: 40px 0;
+}
+/*小贴士*/
+.Tips{
+    width: 94%;
+    height: 300px;
+    margin-top: -30px;
+    margin-left: 20px;
+    border: 1px solid #f1d22b;
+    background-color: #fffbc6;
+}
+.Tips_title{
+    width: 20%;
+    height: 30px;
+    /*background-color: skyblue;*/
+    margin-left: 20px;
+}
+.Tips_title h5{
+    font-weight: 700;
+    color: #323232;
+}
+.Tips_content{
+    width: 94%;
+    height: 220px;
+    /*background-color: pink;*/
+    margin-left: 20px;
+}
+.right{
+    width: 300px;
+    height: 1210px;
+    /*background-color: red;*/
+    margin-left: 20px;
+}
+/*地图*/
+.map{
+    width: 100%;
+    /*background-color: #187be0;*/
+}
+.map img{
+    width: 100%;
+    height: 100%;
+    margin-top: 40px;
+}
+/*线条*/
+.line2{
+    width: 100%;
+    height: 2px;
+    background-color: darkgrey;
+    padding: 0;
+    margin-top: 30px;
+}
+.line3{
+    width: 100%;
+    height: 2px;
+    background-color: darkgrey;
+    padding: 0;
+    margin-top: 25px;
+}
+.line4{
+    width: 100%;
+    height: 2px;
+    background-color: darkgrey;
+    padding: 0;
+    margin-top: 25px;
+}
+/*周边景点*/
+.attr{
+     width: 100%;
+     height: 360px;
+     /*background-color: #9acfea;*/
+     margin-top: 20px;
+ }
+.attr_title{
+    width: 100%;
+    height: 30px;
+    /*background-color: purple;*/
+}
+.attr_title span{
+    color: #636363;
+    font-size: 17px;
+}
+.attr_title a{
+    float: right;
+    font-size: 13px;
+    padding-top: 5px;
+}
+.attr_content{
+    width: 100%;
+    height: 100px;
+    /*background-color: pink;*/
+    margin-top: 5px;
+}
+.attr_content2{
+    width: 100%;
+    height: 100px;
+    /*background-color: pink;*/
+    margin-top: 20px;
+}
+.attr_content3{
+    width: 100%;
+    height: 100px;
+    /*background-color: pink;*/
+    margin-top: 20px;
+}
+.attr_content li{
+    list-style: none;
+}
+.attr_content2 li{
+    list-style: none;
+}
+.attr_content3 li{
+    list-style: none;
+}
+.attr_text{
+    width: 70%;
+    height: 80px;
+    /*background-color: salmon;*/
+    margin-left: 100px;
+    margin-top: -90px;
+    color: #323232;
+    font-size: 16px;
+}
+.attr_text span{
+    font-size: 10px;
+    margin: 0 1px;
+}
+.attr_beauty{
+    font-size: 14px;
+}
+/*底部*/
+.foot{
+    width: 100%;
+    height: 360px;
+    /*background-color: #9acfea;*/
+    margin-top: 30px;
+}
+.distance{
+    color: #959595;
+    font-size: 12px;
+}
+.advertising{
+    width: 100%;
+    height: 180px;
+    background-color: darkkhaki;
+    margin-top: 25px;
+}
+.advertising img{
+    width: 100%;
+    height: 100%;
+}
+#carousel-example-generic{
+    width: 100%;
+    height: 100%;
+}
+#carousel-example-generic img{
+    height: 200px;
+}
